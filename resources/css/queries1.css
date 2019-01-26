@@ -1,0 +1,324 @@
+/* Small Phones : from 1200 to device-width */
+@media only screen and (min-width: 1201px){
+    nav{
+        height: 73px;
+    }
+    
+    #dark-logo{
+        margin-left: 3%;
+    }
+    
+    .main-nav{
+        width: 35.2%;
+        padding-left: 8%;
+    }
+    
+    .search-nav-opt{
+        font-size: 12px;
+    }
+
+    .sign-up{
+        font-size: 13px;
+        width: 7%;
+        margin-top: 1.9%;
+        height: 28px;
+    }
+    
+    .mobile-nav-icon{
+        display: none;
+    }
+    
+    .person-padding{
+        padding-left: 16px;
+        margin-top: 0.3%;
+    }
+    
+    .person{
+    height: 24px;
+    width: 24px;
+    }
+
+    .notification{
+    height: 20px;
+    width: 20px;
+    }
+}
+
+/* Big tablets to 1200px(width smaller than the 1140px row) */
+@media only screen and (max-width: 1202px){    
+    nav{
+        height: 70px;
+    }
+    
+    #dark-logo{
+        margin-left: 3%;
+    }
+    
+    .main-nav{
+        width: 38%;
+        padding-left: 4%;
+    }
+    
+    #search{
+        width: 180px;
+    }
+    
+    .search-nav-opt{
+        font-size: 12px;
+    }
+
+    .sign-up{
+        font-size: 13px;
+        width: 7%;
+        margin-top: 1.9%;
+        height: 28px;
+    }
+    
+    .person-padding{
+        padding-left: 16px;
+        margin-top: 0.3%;
+    }
+    
+    .mobile-nav-icon{
+        display: none;
+    }
+    
+    .person{
+    height: 24px;
+    width: 24px;
+    }
+
+    .notification{
+    height: 20px;
+    width: 20px;
+    }
+}
+
+/* Small tablets and big tablets : from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    nav{
+        height: 61px;
+    }
+    
+    #dark-logo{
+        margin-left: 3%;
+    }
+    
+    .main-nav{
+        width: 41.7%;
+        padding-left: 2%;
+        display: run-in;
+    }
+    
+    #search{
+        width: 150px;
+    }
+    
+    .search-nav-opt{
+        font-size: 11px;
+    }
+
+    .sign-up{
+        font-size: 11.8px;
+        margin-top: 1.9%;
+        height: 28px;
+        width: 6.7%;
+    }
+    
+    .person-padding{
+        padding-left: 16px;
+        margin-top: 0.3%;
+    }
+    
+    .mobile-nav-icon{
+        display: none;
+    }
+    
+    .person{
+    height: 24px;
+    width: 24px;
+    }
+
+    .notification{
+    height: 20px;
+    width: 20px;
+    }
+}
+
+/* Small Phones and tablets : from 481px to 767px */
+@media only screen and (max-width: 767px){
+    nav{
+        height: 55px;
+    }
+    
+    #dark-logo{
+        margin-left: 0%;
+        position: fixed;
+        z-index: 2;
+    }
+    
+    #search{
+        width: 190px;
+    }
+    
+    .main-nav{
+        display: none;
+        position: fixed;
+        padding-top: 50px;
+        width: 9%;
+        height: 20%;
+        margin-top: 50px;
+        padding-left: 0%;
+    }
+    
+    .main-nav li{
+        display: block;
+        margin-left: 0px;
+    }
+    
+    .main-nav li a{
+        padding-bottom: 5px;
+    }
+    
+    .search-nav-opt{
+        font-size: 10px;
+    }
+
+    .sch{
+        position: fixed;
+        overflow: hidden;
+        padding-left: 25%;
+        padding-top: 1.3%;
+        z-index: 1; /*to bring the element to the front after adding the padding, make it's value -1 to disappear the element*/
+    }
+    
+    .noti-user{
+        position: fixed;
+        padding-left: 70%;
+    }
+    
+    .sign-up{
+        font-size: 12px;
+        width: 10%;
+        margin-top: 1.9%;
+        height: 28px;
+    }
+    
+    .person-padding{
+        padding-left: 12px;
+        margin-top: 0.3%;
+    }
+    
+    .mobile-nav-icon{
+        margin-top: 1.5%;
+        padding-right: 10%;
+        padding-left: 10%;
+        display: inline-block;
+        float: left;
+        
+    }
+    
+    .mobile-nav-icon i{
+        position: fixed;
+        padding-left: 2%;
+        z-index: 2; /* if before z index is given as 1, then for next element put it as 2 and so on */
+    }
+    
+    .person{
+    height: 24px;
+    width: 24px;
+    }
+
+    .notification{
+    height: 20px;
+    width: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    nav{
+        height: 53px;
+    }
+    
+    .sch{
+        padding-left: 23%;
+        padding-top: 1.3%;
+    }
+    
+    #search{
+        width: 170px;
+    }
+    
+    .sign-up{
+        font-size: 12px;
+        width: 11%;
+        margin-top: 1.9%;
+        height: 28px;
+    }
+    
+    .mobile-nav-icon{
+        margin-top: 7px;
+    }
+    
+    .person{
+    height: 24px;
+    width: 24px;
+    }
+    
+    .person-padding{
+        margin-top: 0.3%;
+    }
+
+    .notification{
+    height: 20px;
+    width: 20px;
+    }
+}
+
+/* Small Phones : from 0 to 480px */
+@media only screen and (max-width: 481px){
+    nav{
+        height: 53px;
+    }
+    
+    #dark-logo{
+        position: fixed;
+        z-index: 2;
+        padding-left: 0px;
+        display: none;
+    }
+    
+    #search{
+        width: 150px;
+    }
+    
+    .sch{
+        padding-top: 2%;
+        padding-left: 15%;
+    }
+
+    .mobile-nav-icon{
+        padding-left: 0%;
+    }
+    
+    .noti-user{
+        padding-top: 1.5%;
+        padding-left: 65%;
+    }
+    
+    .person{
+    height: 22px;
+    width: 22px;
+    }
+
+    .notification{
+    height: 18px;
+    width: 18px;
+    }
+    
+    .sign-up{
+        font-size: 10px;
+        margin-top: 3.4%;
+        height: 25px;
+    }
+}
