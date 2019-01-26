@@ -28,6 +28,10 @@
         display: none;
     }
     
+    .mobile-nav-icon i{
+        font-size: 175%;
+    }
+    
     .person-padding{
         padding-left: 16px;
         margin-top: 0.3%;
@@ -83,6 +87,10 @@
         display: none;
     }
     
+    .mobile-nav-icon i{
+        font-size: 175%;
+    }
+    
     .person{
     height: 24px;
     width: 24px;
@@ -132,6 +140,10 @@
     
     .mobile-nav-icon{
         display: none;
+    }
+    
+    .mobile-nav-icon i{
+        font-size: 175%;
     }
     
     .person{
@@ -221,6 +233,7 @@
     .mobile-nav-icon i{
         position: fixed;
         padding-left: 2%;
+        font-size: 175%;
         z-index: 2; /* if before z index is given as 1, then for next element put it as 2 and so on */
     }
     
@@ -260,6 +273,10 @@
         margin-top: 7px;
     }
     
+    .mobile-nav-icon i{
+        font-size: 175%;
+    }
+    
     .person{
     height: 24px;
     width: 24px;
@@ -294,11 +311,15 @@
     
     .sch{
         padding-top: 2%;
-        padding-left: 15%;
+        padding-left: 13%;
     }
 
     .mobile-nav-icon{
         padding-left: 0%;
+    }
+    
+    .mobile-nav-icon i{
+        font-size: 160%;
     }
     
     .noti-user{
