@@ -59,7 +59,7 @@ h3{
 /*--------------------------------------------------------------------*/
 
 header{
-    background-image: linear-gradient(rgba(46, 46, 46, 0.92), rgba(0, 0, 0, 0.92)), url(img/home-background-image.jpg);
+    background-image: linear-gradient(rgba(59, 59, 59, 0.92),rgba(59, 59, 59, 0.92)), url(img/home-background-image.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -70,17 +70,11 @@ header{
 /*--------------------------------------------------------------------*/
 
 nav{
-    background-color: #3b3a3a;
+    background-color: #313131;
 }
 
 nav a{
     text-decoration: none;
-}
-
-.logo{
-/*    padding-top: 2%;*/
-    width: 10%;
-    height: 10%;
 }
 
 .search-nav-opt{
@@ -99,7 +93,6 @@ nav a{
 }
 
 .search-nav{
-    margin-left: 13%;
     padding-right: 8px;
 }
 
@@ -132,19 +125,22 @@ nav a{
 
 .search1{
     padding-top: 0.5%;
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
 }
 
 #search{
-    background-color: #7b7b7b;
-    font-size: 22px;
-        padding-bottom: 10px;
-        height: 30px;
+/*    background-color: #535353;*/
+    font-size: 18px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    height: 30px;
+    background-image: linear-gradient(to right, #535353, #747474);
 }
 
 ::placeholder{
     font-size: 16px;
+    padding-left: 5px;
     text-align:left;
     color: #b5b5b5;
 }
@@ -188,15 +184,16 @@ nav a{
 
 .sign-up{
     float: right;
+    color: #fff;
     margin-right: 2%;
     border-radius: 200px;
     border: none;
-    background-color: #db01cb;
+    background-image: linear-gradient(to right, #6c13c6, #f717f7);
 }
 
 .sign-up:hover,
 .sign-up:active{
-    background-color: #8400bf;
+    background-color: #700a9b;
     cursor: pointer;
 }
 

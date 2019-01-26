@@ -4,24 +4,35 @@
         height: 73px;
     }
     
+    .logo{
+/*    padding-top: 2%;*/
+    width: 10%;
+    height: 10%;
+    }
+    
     #dark-logo{
         margin-left: 3%;
+        padding-top: 1%;
+    }
+    
+    .search-nav{
+        margin-left: 12%;
     }
     
     .main-nav{
-        width: 35.2%;
+        width: 39%;
         padding-left: 8%;
     }
     
     .search-nav-opt{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .sign-up{
         font-size: 13px;
         width: 7%;
         margin-top: 1.9%;
-        height: 28px;
+        height: 29px;
     }
     
     .mobile-nav-icon{
@@ -54,12 +65,23 @@
         height: 70px;
     }
     
+    .logo{
+/*    padding-top: 2%;*/
+    width: 10%;
+    height: 10%;
+    }
+    
     #dark-logo{
         margin-left: 3%;
+        padding-top: 1%;
+    }
+    
+    .search-nav{
+        margin-left: 12%;
     }
     
     .main-nav{
-        width: 38%;
+        width: 39.5%;
         padding-left: 4%;
     }
     
@@ -68,14 +90,14 @@
     }
     
     .search-nav-opt{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .sign-up{
         font-size: 13px;
-        width: 7%;
+        width: 7.1%;
         margin-top: 1.9%;
-        height: 28px;
+        height: 29px;
     }
     
     .person-padding{
@@ -108,8 +130,18 @@
         height: 61px;
     }
     
+    .logo{
+/*    padding-top: 2%;*/
+    width: 10%;
+    height: 10%;
+    }
+    
     #dark-logo{
         margin-left: 3%;
+    }
+    
+    .search-nav{
+        margin-left: 7%;
     }
     
     .main-nav{
@@ -127,10 +159,10 @@
     }
 
     .sign-up{
-        font-size: 11.8px;
+        font-size: 11px;
         margin-top: 1.9%;
-        height: 28px;
-        width: 6.7%;
+        height: 30px;
+        width: 6.9%;
     }
     
     .person-padding{
@@ -163,14 +195,26 @@
         height: 55px;
     }
     
+    .logo{
+/*    padding-top: 2%;*/
+    width: 15%;
+    height: 15%;
+    }
+    
     #dark-logo{
-        margin-left: 0%;
+        margin-left: 10%;
         position: fixed;
         z-index: 2;
+        margin-top: 0.8%;
+/*        display: none;*/
     }
     
     #search{
         width: 190px;
+    }
+    
+    .search-nav{
+        margin-left: 1%;
     }
     
     .main-nav{
@@ -199,7 +243,7 @@
     .sch{
         position: fixed;
         overflow: hidden;
-        padding-left: 25%;
+        padding-left: 26%;
         padding-top: 1.3%;
         z-index: 1; /*to bring the element to the front after adding the padding, make it's value -1 to disappear the element*/
     }
@@ -211,9 +255,9 @@
     
     .sign-up{
         font-size: 12px;
-        width: 10%;
+        width: 10.2%;
         margin-top: 1.9%;
-        height: 28px;
+        height: 30px;
     }
     
     .person-padding{
@@ -224,7 +268,7 @@
     .mobile-nav-icon{
         margin-top: 1.5%;
         padding-right: 10%;
-        padding-left: 10%;
+        padding-left: 2%;
         display: inline-block;
         float: left;
         
@@ -254,7 +298,7 @@
     }
     
     .sch{
-        padding-left: 23%;
+        padding-left: 28%;
         padding-top: 1.3%;
     }
     
@@ -265,8 +309,11 @@
     .sign-up{
         font-size: 12px;
         width: 11%;
-        margin-top: 1.9%;
-        height: 28px;
+        margin-top: 2.4%;
+        height: 30px;
+    }
+    
+    .search-nav{
     }
     
     .mobile-nav-icon{
@@ -283,7 +330,7 @@
     }
     
     .person-padding{
-        margin-top: 0.3%;
+        margin-top: 0.7%;
     }
 
     .notification{
@@ -302,7 +349,6 @@
         position: fixed;
         z-index: 2;
         padding-left: 0px;
-        display: none;
     }
     
     #search{
@@ -311,7 +357,10 @@
     
     .sch{
         padding-top: 2%;
-        padding-left: 13%;
+        padding-left: 28%;
+    }
+    
+    .search-nav{
     }
 
     .mobile-nav-icon{
@@ -339,7 +388,8 @@
     
     .sign-up{
         font-size: 10px;
-        margin-top: 3.4%;
-        height: 25px;
+        margin-top: 2%;
+        height: 32px;
+        width: 12.6%;
     }
 }
