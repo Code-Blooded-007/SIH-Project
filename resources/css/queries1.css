@@ -15,6 +15,14 @@
         padding-top: 1%;
     }
     
+    #nav-opt:hover,
+    #nav-opt:active,#nav-opt1:hover,
+    #nav-opt1:active,#nav-opt2:hover,
+    #nav-opt2:active,#nav-opt3:hover,
+    #nav-opt3:active,#nav-opt4:hover,#nav-opt4:active{
+        margin-bottom: 2px;
+    }
+    
     .search-nav{
         margin-left: 12%;
     }
@@ -74,6 +82,14 @@
     #dark-logo{
         margin-left: 3%;
         padding-top: 1%;
+    }
+    
+     #nav-opt:hover,
+    #nav-opt:active,#nav-opt1:hover,
+    #nav-opt1:active,#nav-opt2:hover,
+    #nav-opt2:active,#nav-opt3:hover,
+    #nav-opt3:active,#nav-opt4:hover,#nav-opt4:active{
+        margin-bottom: 2px;
     }
     
     .search-nav{
@@ -138,6 +154,14 @@
     
     #dark-logo{
         margin-left: 3%;
+    }
+    
+     #nav-opt:hover,
+    #nav-opt:active,#nav-opt1:hover,
+    #nav-opt1:active,#nav-opt2:hover,
+    #nav-opt2:active,#nav-opt3:hover,
+    #nav-opt3:active,#nav-opt4:hover,#nav-opt4:active{
+        margin-bottom: 2px;
     }
     
     .search-nav{
@@ -209,6 +233,14 @@
 /*        display: none;*/
     }
     
+     #nav-opt:hover,
+    #nav-opt:active,#nav-opt1:hover,
+    #nav-opt1:active,#nav-opt2:hover,
+    #nav-opt2:active,#nav-opt3:hover,
+    #nav-opt3:active,#nav-opt4:hover,#nav-opt4:active{
+        margin-bottom: 8px;
+    }
+    
     #search{
         width: 190px;
     }
@@ -233,11 +265,11 @@
     }
     
     .main-nav li a{
-        padding-bottom: 5px;
+        margin-bottom: 8px;
     }
     
     .search-nav-opt{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .sch{
@@ -311,6 +343,13 @@
         width: 170px;
     }
     
+     #nav-opt:hover,
+    #nav-opt:active,#nav-opt1:hover,
+    #nav-opt1:active,#nav-opt2:hover,
+    #nav-opt2:active,#nav-opt3:hover,
+    #nav-opt3:active,#nav-opt4:hover,#nav-opt4:active{
+    }
+    
     .sign-up{
         font-size: 12px;
         width: 11%;
@@ -362,6 +401,13 @@
         padding-left: 0px;
     }
     
+     #nav-opt:hover,
+    #nav-opt:active,#nav-opt1:hover,
+    #nav-opt1:active,#nav-opt2:hover,
+    #nav-opt2:active,#nav-opt3:hover,
+    #nav-opt3:active,#nav-opt4:hover,#nav-opt4:active{
+    }
+    
     #search{
         width: 165px;
     }
@@ -409,6 +455,13 @@
 @media only screen and (max-width: 400px){
     .noti-user{
         padding-top: 1.9%;
+    }
+    
+     #nav-opt:hover,
+    #nav-opt:active,#nav-opt1:hover,
+    #nav-opt1:active,#nav-opt2:hover,
+    #nav-opt2:active,#nav-opt3:hover,
+    #nav-opt3:active,#nav-opt4:hover,#nav-opt4:active{
     }
     
     #search{
