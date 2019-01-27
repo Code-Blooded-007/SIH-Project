@@ -197,8 +197,8 @@
     
     .logo{
 /*    padding-top: 2%;*/
-    width: 11%;
-    height: 11%;
+        width: 11%;
+        height: 11%;
     }
     
     #dark-logo{
@@ -353,6 +353,7 @@
     .logo{
         height: 12%;
         width: 12%;
+        display: none;
     }
     
     #dark-logo{
@@ -362,12 +363,12 @@
     }
     
     #search{
-        width: 145px;
+        width: 165px;
     }
     
     .sch{
         padding-top: 2%;
-        padding-left: 28%;
+        padding-left: 23%;
     }
     
     .search-nav{
@@ -415,7 +416,7 @@
     }
     
     .sch{
-        padding-left: 27%;
+        padding-left: 24%;
     }
     
     .noti-user{
