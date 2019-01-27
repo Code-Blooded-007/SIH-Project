@@ -206,7 +206,6 @@
         position: fixed;
         z-index: 2;
         padding-top: 0%;
-/*        margin-top: 0.8%;*/
 /*        display: none;*/
     }
     
@@ -251,14 +250,14 @@
     
     .noti-user{
         position: fixed;
-        padding-top: 0.4%;
+        padding-top: 0.8%;
         padding-left: 70%;
     }
     
     .sign-up{
         font-size: 12px;
         width: 10.2%;
-        margin-top: 1.9%;
+        margin-top: 2.4%;
         height: 30px;
     }
     
@@ -297,6 +296,10 @@
 @media only screen and (max-width: 550px){
     nav{
         height: 53px;
+    }
+    
+    .main-nav{
+        padding-left: 2%;
     }
     
     .sch{
@@ -379,7 +382,7 @@
     }
     
     .noti-user{
-        padding-top: 1.5%;
+        padding-top: 1.7%;
         padding-left: 65%;
     }
     
@@ -395,8 +398,31 @@
     
     .sign-up{
         font-size: 10px;
-        margin-top: 2%;
-        height: 32px;
+        margin-top: 3%;
+        height: 28px;
         width: 12.6%;
+    }
+}
+
+/* Small Phones : from 0 to 480px */
+@media only screen and (max-width: 400px){
+    .noti-user{
+        padding-top: 1.9%;
+    }
+    
+    #search{
+        width: 135px;
+    }
+    
+    .sch{
+        padding-left: 27%;
+    }
+    
+    .noti-user{
+        padding-left: 63%;
+    }
+    
+    .sign-up{
+        margin-top: 3.3%;
     }
 }
