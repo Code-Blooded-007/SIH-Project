@@ -138,6 +138,15 @@ nav a{
     background-image: linear-gradient(to right, #535353, #747474);
 }
 
+#search:hover,
+#search:active{
+    background-image: linear-gradient(to right, #363636, #5c5c5c);
+}
+
+#search:focus{   /*Used this class to remove the blue outline occured on the element when it is clicked*/
+    outline: 0;
+}
+
 ::placeholder{
     font-size: 16px;
     padding-left: 5px;
@@ -193,8 +202,12 @@ nav a{
 
 .sign-up:hover,
 .sign-up:active{
-    background-color: #700a9b;
+    background-image: linear-gradient(to right, #3d0d6d, #ba16ba);
     cursor: pointer;
+}
+
+.sign-up:focus{
+    outline: 0;
 }
 
 .notification-padding{
