@@ -235,12 +235,11 @@ nav a{
 }
 
 /*--------------------------------------------------------------------*/
-/*BASIC SETUP*/
+/*Social-Media Sticky*/
 /*--------------------------------------------------------------------*/
 
 .social-media{
     float: right;
-    
     padding-top: 4%;
     padding-right: 2%;
 }
@@ -263,7 +262,7 @@ nav a{
 }
 
 .ion-logo-facebook:hover{
-    color: #3b5998;
+    color: #274480;
 }
 
 .ion-logo-twitter:hover{
@@ -276,4 +275,93 @@ nav a{
 
 .ion-logo-instagram:hover{
     color: #cd486b;
+}
+
+/*--------------------------------------------------------------------*/
+/*Footer*/
+/*--------------------------------------------------------------------*/
+
+footer{
+    background-color: #2e024a;
+}
+
+#dark-logo-footer{
+    overflow: hidden;
+    float: left;
+    font-size: 10px;
+    color: #fff;
+}
+
+.copyright-ft{
+    color: #fff;
+    padding-top: 5%;
+}
+
+.footer-opt{
+    padding-top: 23%;
+}
+
+.footer-opt li{
+    list-style: none;
+    padding-bottom: 5%;
+}
+
+.footer-opt li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media-ft{
+    float: left;
+    padding-right: 2%;
+}
+
+.social-media-ft li{
+    list-style: none;
+    padding-bottom: 2%;
+}
+
+.social-media-ft li a{
+    color: #fff;
+    padding-bottom: 4%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.smi{
+    float: right;
+}
+
+.social-media-nm{
+    padding-top: 18.5%;
+    padding-right: 2%;
+}
+
+.social-media-nm li{
+    list-style: none;
+}
+
+.social-media-nm li a{
+    color: #fff;
+    padding-bottom: 4%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.smin1:hover{
+    color: #274480;
+}
+
+.smin2:hover{
+    color: #55acee;
+}
+
+.smin3:hover{
+    color: #cd486b;
+}
+
+.address{
+    padding-top: 12%;
+    font-size: 13px;
+    color: #fff;
 }
