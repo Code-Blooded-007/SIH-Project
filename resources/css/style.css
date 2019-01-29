@@ -71,6 +71,8 @@ header{
 
 nav{
     background-color: #313131;
+    position: fixed;
+    width: 100%;
 }
 
 nav a{
@@ -234,14 +236,37 @@ nav a{
     color: #fff;
 }
 
+/*-------STICKY NAVIGATION------*/
+/*
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 15px 0;
+    color: #555;
+}
+
+.sticky .main-nav{
+    margin-top: 18px;
+}
+*/
+
 /*--------------------------------------------------------------------*/
-/*Social-Media Sticky*/
+/*Social-Media in Header*/
 /*--------------------------------------------------------------------*/
 
 .social-media{
     float: right;
-    padding-top: 4%;
     padding-right: 2%;
+    position: fixed;
 }
 
 .social-media li{

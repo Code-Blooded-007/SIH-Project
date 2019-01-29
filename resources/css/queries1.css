@@ -85,8 +85,14 @@
         font-size: 14px;
     }
     
+    .social-media{
+        margin-top: 8%;
+        margin-left: 96%;
+    }
+    
     .social-media-ft{
         padding-top: 24%;
+        display: none;
     }
     
     .smin{
@@ -96,6 +102,10 @@
     .smi{
         padding-right: 30%;
         font-size: 14px;
+    }
+    
+    .smi li{
+        padding-bottom: 8%;
     }
     
     .adrs{
@@ -176,6 +186,7 @@
     }
     
     /* For Footer*/
+    
     footer{
     height: 135px;
     }
@@ -194,8 +205,14 @@
         font-size: 14px;
     }
     
+    .social-media{
+        margin-top: 8%;
+        margin-left: 96%;
+    }
+    
     .social-media-ft{
         padding-top: 20%;
+        display: none;
     }
     
     .smin{
@@ -285,6 +302,7 @@
     }
     
     /* For Footer*/
+    
     footer{
     height: 135px;
     }
@@ -301,6 +319,11 @@
     
     .footer-opt{
         font-size: 13px;
+    }
+    
+    .social-media{
+        margin-top: 10%;
+        margin-left: 95%;
     }
     
     .social-media-ft{
@@ -432,6 +455,7 @@
     }
     
     /*For Footer*/
+    
     footer{
     height: 120px;
     }
@@ -448,9 +472,19 @@
     .footer-opt{
     }
     
+    .social-media{
+        margin-top: 12%;
+        margin-left: 94.5%;
+    }
+    
     .social-media-ft{
         padding-top: 22%;
         padding-left: 20%;
+        display: contents;
+    }
+    
+    #social-media-ft1{
+        padding-top: 3%;
     }
     
     .smin{
@@ -524,6 +558,7 @@
     }
     
     /*For Footer*/
+    
     .copyright-ft{
     }
     
@@ -534,6 +569,11 @@
     padding-top: 20%;
     height: 60%;
     width: 60%;
+    }
+    
+    .social-media{
+        margin-top: 14%;
+        margin-left: 93.5%;
     }
     
     .social-media-ft{
@@ -616,6 +656,7 @@
     }
     
     /*For Footer*/
+    
     footer{
         height: 565px;
     }
@@ -628,14 +669,24 @@
     }
     
     .copyright-ft{
-        padding-left: 38%;
+        padding-left: 40%;
     }
     
     .footer-opt{
         padding-left: 40%;
     }
     
+    .social-media{
+        margin-top: 17%;
+        margin-left: 92%;
+    }
+    
     .social-media-ft{
+        padding-left: 45%;
+    }
+    
+    #social-media-ft1{
+        padding-top: 3%;
         padding-left: 45%;
     }
     
