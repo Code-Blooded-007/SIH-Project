@@ -65,6 +65,31 @@ header{
     height: 100vh;
 }
 
+/*-------HEADINGS-------*/
+
+h1,h2,
+h3{
+    font-weight: 310;
+    text-transform: uppercase;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.aasca-heading{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
 /*--------------------------------------------------------------------*/
 /*MAIN NAV BAR*/
 /*--------------------------------------------------------------------*/
@@ -73,6 +98,7 @@ nav{
     background-color: #313131;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 
 nav a{
@@ -83,7 +109,7 @@ nav a{
     margin-top: 2.1%;
     overflow: hidden;
     float: left;
-    color: #fff;
+    z-index: 999;
 }
 
 #dark-logo{
@@ -266,7 +292,7 @@ nav a{
 .social-media{
     float: right;
     padding-right: 2%;
-    position: fixed;
+/*    position: fixed;*/
 }
 
 .social-media li{
@@ -358,7 +384,7 @@ footer{
 }
 
 .social-media-nm{
-    padding-top: 18.5%;
+/*    padding-top: 18.5%;*/
     padding-right: 2%;
 }
 
@@ -386,7 +412,6 @@ footer{
 }
 
 .address{
-    padding-top: 12%;
     font-size: 13px;
     color: #fff;
 }
