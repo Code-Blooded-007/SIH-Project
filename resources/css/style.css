@@ -333,11 +333,13 @@ nav a{
 /*--------------------------------------------------------------------*/
 
 .quick-section{
-    margin-top: 0px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
 }
 
 .quick-button-1{
     text-align: center;
+    
 }
 
 .qb{
@@ -346,16 +348,182 @@ nav a{
 }
 
 .quick-button{
-    height: 45px;
+    height: 4vw;
     width: 15%;
     border: 2px solid #5a5a5a;
     background-color: #fff;
+    outline: none;
+    background-size: 167px;
 }
 
 .quick-button:hover,
 .quick-button:active{
     cursor: pointer;
     background-image: linear-gradient(to right, #9c3de2, #518ed4);
+}
+
+/*--------------------------------------------------------------------*/
+/*Main Content*/
+/*--------------------------------------------------------------------*/
+
+.main-content{
+    background-color: #ededed;
+}
+
+.main-ct-h1{
+    font-size: 3vw;
+    font-weight: 550;
+    color: #454545;
+    padding-top: 3vw;
+}
+
+/*-----Rectangular Switch-----*/
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+
+.main-switch{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch{
+    width: 200px;
+    height: 35px;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #21f339;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 92px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #21f339;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #21f339;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(99px);
+  -ms-transform: translateX(99px);
+  transform: translateX(99px);
+}
+
+/* Rounded sliders */
+/*.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}*/
+
+/*-----Main Sites Data-----*/
+
+.fold-table{
+    margin-bottom: 3.5vw !important;
+}
+
+.main-sites-data{
+    margin-top: 2vw !important;
+}
+
+th{
+    font-size: 1vw !important;
+    text-align: left !important;
+    color:#a0aeba !important;
+    cursor: default !important;
+    border: none !important;
+    padding-bottom: 2vw !important;
+    padding-top: 2vw !important;
+}
+
+tr{
+    font-size: 1vw !important;
+    color: #646464 !important;
+}
+
+td{
+    border: none !important;
+}
+
+.tr-border{
+    font-weight: 590 !important;
+    height: 4vw !important;
+    background-color: #aaaaaa !important;
+}
+
+.radio-input{
+    display: none !important;
+}
+
+.hdn-row{
+    display: none;
+}
+
+.radio-input{
+    display: none !important;
+}
+
+.collapse-head{
+    font-size: 1.1vw !important;
+}
+
+.number{
+    width: 8vw !important;
+}
+
+.client{
+    width: 13vw !important;
+}
+
+.notify-when-active{
+    width: 13.2vw !important;
+}
+
+.notify{
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+.feedback{
+    width: 5vw !important;
 }
 
 /*--------------------------------------------------------------------*/
