@@ -350,6 +350,7 @@ nav a{
 .quick-button{
     height: 4vw;
     width: 15%;
+    font-size: 2vw;
     border: 2px solid #5a5a5a;
     background-color: #fff;
     outline: none;
