@@ -1,52 +1,30 @@
-$(document).ready(function(){
-    
-    /*-------For Sticky Navigation-------*/
-    
-    $('.js--section-features').waypoint(function(direction){
-        if(direction == "down"){
-            $('nav').addClass('sticky');
-        } else{
-            $('nav').removeClass('sticky');
+//initial setup
+        document.addEventListener('DOMContentLoaded', function(){
+            let stars = document.querySelectorAll('.star');
+            stars.forEach(function(star){
+                star.addEventListener('click', setRating); 
+            });
+            
+            let rating = parseInt(document.querySelector('.stars').getAttribute('data-rating'));
+            let target = stars[rating - 1];
+            target.dispatchEvent(new MouseEvent('click'));
+        });
+        function setRating(ev){
+            let span = ev.currentTarget;
+            let stars = document.querySelectorAll('.star');
+            let match = false;
+            let num = 0;
+            stars.forEach(function(star, index){
+                if(match){
+                    star.classList.remove('rated');
+                }else{
+                    star.classList.add('rated');
+                }
+                //are we currently looking at the span that was clicked
+                if(star === span){
+                    match = true;
+                    num = index + 1;
+                }
+            });
+            document.querySelector('.stars').setAttribute('data-rating', num);
         }
-    },{
-        offset: '60px'
-    });
-    /*
-    var waypoints = $('#handler-first').waypoint(function(direction) {
-      notify(this.element.id + ' hit 25% from top of window') 
-    }, {
-      offset: '25%'
-    })
-    */
-    
-    /*-------For Sticky Navigation-------*/
-    /*-------Mobile Navigation-------*/
-    
-    $('.js--nav-icon').click(function(){
-        var nav = $('.js--main-nav');
-        var icon = $('.js--nav-icon i');
-        
-        nav.slideToggle(200);
-        if (icon.hasClass('ion-ios-menu')){
-            icon.addClass('ion-ios-close');
-            icon.removeClass('ion-ios-menu');
-        } else{
-            icon.addClass('ion-ios-menu');
-            icon.removeClass('ion-ios-close');
-        }
-    });
-    
-    /*-------Animation On Scroll-------*/
-    
-    $('.js--wp-1').waypoint(function(direction){
-        $('.js--wp-1').addClass('animated fadeIn');
-    }, {
-        offset: '50%'
-    });
-    
-    $('.js--wp-2').waypoint(function(direction){
-        $('.js--wp-2').addClass('animated fadeInUp');
-    }, {
-        offset: '50%'
-    });
-});

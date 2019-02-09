@@ -101,6 +101,11 @@ nav{
     z-index: 9999;
 }
 
+.sticky{
+    position: fixed;
+    top: 0;
+}
+
 nav a{
     text-decoration: none;
 }
@@ -525,6 +530,149 @@ td{
 
 .feedback{
     width: 5vw !important;
+}
+
+/*--------------------------------------------------------------------*/
+/*Review*/
+/*--------------------------------------------------------------------*/
+
+.review{
+    margin-left: 15%;
+    margin-bottom: 5vw;
+    width: 70%;
+    background-color: #1f1f1f;
+}
+
+.review-h1{
+    font-size: 3vw;
+    font-weight: 500;
+    padding-left: 7%;
+    padding-top: 3%;
+}
+
+.star{
+          color: goldenrod;
+          font-size: 3vw;
+          padding: 0 1vw; /* space out the stars */
+        }
+        .star::before{
+          content: '\2606';    /* star outline */
+          cursor: pointer;
+        }
+        .star.rated::before{
+          /* the style for a selected star */
+          content: '\2605';  /* filled star */
+        }
+        
+        .stars{
+            counter-reset: rateme 0;   
+            font-size: 3vw;
+            font-weight: 900;
+            padding-left: 5.5%;
+            padding-bottom: 3%;
+        }
+        .star.rated{
+            counter-increment: rateme 1;
+        }
+        .stars::after{
+            background-color: rgb(195, 161, 18);
+            color: #1f1f1f;
+            content: counter(rateme) '/5';
+        }
+
+/*--------------------------------------------------------------------*/
+/*Sliding Cards*/
+/*--------------------------------------------------------------------*/
+
+.slider1 {
+  width: 80vw;
+  text-align: center;
+  overflow: hidden;
+    margin-left: 10%;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  
+  border-radius: 5px;
+  
+  scroll-behavior: smooth;
+  
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  flex-shrink: 0;
+  width: 80vw;
+  height: 30vw;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slides > div:target {
+  transform: scale(1);
+}
+.author-info {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.author-info a {
+  color: white;
+}
+
+
+.slider1 > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider1 > a:active {
+  top: 1px;
+}
+.slider1 > a:focus {
+  background: #000;
+}
+
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+  .slider1 > a {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------------*/
