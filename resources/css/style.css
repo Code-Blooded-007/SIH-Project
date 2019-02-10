@@ -101,10 +101,11 @@ nav{
     z-index: 9999;
 }
 
-.sticky{
-    position: fixed;
-    top: 0;
-}
+/*.sticky{*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    z-index: 9999;*/
+/*}*/
 
 nav a{
     text-decoration: none;
@@ -381,6 +382,7 @@ nav a{
     font-weight: 550;
     color: #454545;
     padding-top: 3vw;
+    padding-left: 15%;
 }
 
 /*-----Rectangular Switch-----*/
@@ -481,7 +483,7 @@ th{
 }
 
 tr{
-    font-size: 1vw !important;
+    font-size: 1.3vw !important;
     color: #646464 !important;
 }
 
@@ -520,7 +522,7 @@ td{
 }
 
 .notify-when-active{
-    width: 13.2vw !important;
+    width: 7vw !important;
 }
 
 .notify{
@@ -603,17 +605,21 @@ td{
   scroll-snap-points-x: repeat(300px);
   scroll-snap-type: mandatory;
 }
+
 .slides::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
+
 .slides::-webkit-scrollbar-thumb {
   background: black;
   border-radius: 10px;
 }
+
 .slides::-webkit-scrollbar-track {
   background: transparent;
 }
+
 .slides > div {
   flex-shrink: 0;
   width: 80vw;
@@ -673,6 +679,10 @@ td{
   .slider1 > a {
     display: none;
   }
+}
+
+.slide-dot{
+    color: #ff0000;
 }
 
 /*--------------------------------------------------------------------*/
@@ -761,4 +771,14 @@ footer{
 .address{
     font-size: 13px;
     color: #fff;
+}
+
+.contact-email{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-email:hover,
+.contact-emial:active{
+    color: #c6c6c6;
 }
