@@ -17,6 +17,16 @@
         <link href="https://unpkg.com/ionicons@4.4.7/dist/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet" type="text/css">
         
+        <link rel="apple-touch-icon" sizes="180x180" href="resources\favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources\favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources\favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources\favicons/site.webmanifest">
+        <link rel="mask-icon" href="resources\favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources\favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="resources\favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
         <script
           src="https://code.jquery.com/jquery-3.3.1.min.js"
           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -465,4 +475,25 @@
             });
         });
     </script>
+<!--    <script>
+        function myFunction3() {
+          // Declare variables
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById("search");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("slave-sites");
+          li = ul.getElementsByClassName("sblist");
+
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("td")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+    </script>-->
 </html>
