@@ -84,6 +84,7 @@ h1{
 .aasca-heading{
     position: absolute;
     text-align: center;
+    font-size: 1.1vw;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
@@ -127,6 +128,7 @@ nav a{
 
 .search-nav{
     padding-right: 8px;
+    padding-left: 5%;
 }
 
 .cont{
@@ -164,10 +166,11 @@ nav a{
 
 #search{
 /*    background-color: #535353;*/
-    font-size: 18px;
+    font-size: 1.8vw;
     padding-bottom: 7px;
     padding-left: 12px;
-    height: 32px;
+    height: 7vh;
+    width: 50vw;
     background-size: 110%;
     background-image: linear-gradient(to right, #535353, #747474);
 }
@@ -191,6 +194,33 @@ nav a{
 .search1 ::placeholder{
     float: left;
     text-decoration: none;
+}
+
+.search-button{
+    height: 7vh;
+    width: 12vw;
+    font-size: 1.8vw;
+    color: #fdfdfd;
+    border-radius: 5vw;
+    border: none;
+    background-image: linear-gradient(to right, #0000d6, #af00be);
+    cursor: pointer;
+}
+
+.search-button:hover,
+.search-button:active{
+    font-size: 2vw;
+    transition-duration: 0.4;
+    background-image: linear-gradient(to right, #00009f, #8e009a);
+}
+
+.search-button:focus{
+    outline: 0;
+}
+
+.search-button-1{
+    padding-top: 3.5vh;
+    padding-right: 14%;
 }
 
 #nav-opt,#nav-opt1,
@@ -297,6 +327,7 @@ nav a{
 
 .social-media{
     float: right;
+    padding-top: 10%;
     padding-right: 2%;
 /*    position: fixed;*/
 }
@@ -441,6 +472,7 @@ nav a{
 
 input:checked + .slider {
   background-color: #21f339;
+    border-radius: 4vw;
 }
 
 input:focus + .slider {
@@ -577,8 +609,7 @@ td{
             counter-increment: rateme 1;
         }
         .stars::after{
-            background-color: rgb(195, 161, 18);
-            color: #1f1f1f;
+            color: #fff;
             content: counter(rateme) '/5';
         }
 
@@ -688,7 +719,7 @@ td{
 /*--------------------------------------------------------------------*/
 /*Footer*/
 /*--------------------------------------------------------------------*/
-
+/*
 footer{
     background-color: #2e024a;
 }
@@ -742,7 +773,7 @@ footer{
 
 .social-media-nm{
 /*    padding-top: 18.5%;*/
-    padding-right: 2%;
+/*    padding-right: 2%;
 }
 
 .social-media-nm li{
@@ -771,6 +802,113 @@ footer{
 .address{
     font-size: 13px;
     color: #fff;
+}
+
+.contact-email{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-email:hover,
+.contact-emial:active{
+    color: #c6c6c6;
+}
+*/
+
+
+
+footer{
+    background-color: #2e024a;
+}
+
+.copyright-ft{
+    color: #fff;
+    padding-top: 5%;
+}
+
+#dark-logo-footer{
+    overflow: hidden;
+    float: left;
+    font-size: 1vw;
+    color: #fff;
+}
+
+.footer-opt{
+    padding-top: 23%;
+}
+
+.footer-opt li{
+    list-style: none;
+    padding-bottom: 5%;
+}
+
+.footer-opt li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media-ft{
+    padding-top: 20%;
+    float: left;
+    padding-right: 2%;
+}
+
+.social-media-ft li{
+    list-style: none;
+    padding-bottom: 2%;
+}
+
+.social-media-ft li a{
+    color: #fff;
+    padding-bottom: 4%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.smi{
+    float: right;
+    font-size: 1.2vw;
+}
+
+.smi li{
+    padding-bottom: 12%;
+}
+
+.social-media-nm{
+    padding-top: 21%;
+    padding-right: 2%;
+}
+
+.social-media-nm li{
+    list-style: none;
+}
+
+.social-media-nm li a{
+    color: #fff;
+    padding-bottom: 4%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.smin1:hover{
+    color: #274480;
+}
+
+.smin2:hover{
+    color: #55acee;
+}
+
+.smin3:hover{
+    color: #cd486b;
+}
+
+.address{
+    color: #fff;
+    padding-top: 12%;
+}
+
+.adrs{
+    padding-left: 6%;
 }
 
 .contact-email{

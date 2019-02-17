@@ -1,0 +1,6 @@
+/* Small Phones : from 1200 to device-width */
+@media only screen and (min-width: 1201px){
+    .mobile-nav-icon{
+        display: none;
+    }
+}

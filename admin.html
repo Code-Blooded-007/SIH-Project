@@ -11,8 +11,10 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/theme.default.min.css">
 <!--        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">-->
-        <link rel="stylesheet" type="text/css" href="resources/css/queries1.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+<!--        <link rel="stylesheet" type="text/css" href="resources/css/queries1.css">-->
+<!--        <link rel="stylesheet" type="text/css" href="resources/css/style.css">-->
+        <link rel="stylesheet" type="text/css" href="resources/css/admin.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/admin_query.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
         <link href="https://unpkg.com/ionicons@4.4.7/dist/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet" type="text/css">
@@ -63,82 +65,62 @@
                      </div>
                      <ul class="main-nav js--main-nav">
                          <li class="nav-opt11 nav-pad"><a class="search-nav-opt" href="#home" id="nav-opt"><b>HOME</b></a></li>
-                         <li class="nav-opt11"><a href="#about" class="search-nav-opt" id="nav-opt1"><b>ABOUT</b></a></li>
-                         <li class="nav-opt11"><a href="#contact" class="search-nav-opt" id="nav-opt2"><b>SUPPORT</b></a></li>
-<!--                         <li class="nav-opt11"><a href="#contact" class="search-nav-opt" id="nav-opt3"><b>BLOG</b></a></li>-->
-                         <li class="nav-opt11 cont"><a href="#contact" class="search-nav-opt" id="nav-opt4"><b>CONTACT</b></a></li>
+                         <li class="nav-opt11 nav-pad"><a class="search-nav-opt" href="#approve-request" id="nav-opt1"><b>APPROVE&nbsp;&nbsp;REQUEST</b></a><span class="badge1">3</span></li>
                      </ul>
                      <a class="mobile-nav-icon js--nav-icon"><i class="icon ion-ios-menu"></i></a>
                       
-<!--                      <div class="sch"><input type="text" placeholder="Type to search" class="search-nav-opt search1" id="search" title="type here to search!"></div>-->
+                      <div class="sch"><input type="text" placeholder="Type to search" class="search-nav-opt search1" id="search" title="type here to search!">
+                      </div>
                       
                  </div>
                   <div>
                       <ul class="noti-user">
-                       <li class="notification-padding" title="notification"><a href="#"><img src="vendors/icons/while-bell.ico" class="notification"></a></li>
-                       <li class="person-padding" title="Login here"><a href="admin.html"><img src="vendors/icons/white-user.ico" class="person"></a></li>
+                       <li class="notification-padding" title="notification"><a href="#"><img src="vendors/icons/while-bell.ico" class="notification"></a><span class="badge2">3</span></li>
+                       <li class="person-padding" title="Received messages are here"><a href="#"><img src="vendors/icons/chat-box.png" class="person"></a><span class="badge3">4</span></li>
                     </ul>
                   </div>
-                   
-                    <button class="sign-up"><b>SIGN UP</b></button>
+                       <a class="username" onclick="show_options()"><b>@codeblooded007</b></a><br>
+                       <span class="badge4">Super Admin</span>
+                       <ul class="usr-nm-opt" id="user-opt">
+                           <li><a href="#"><b>Profile</b></a></li>
+                           <li><a href="#"><b class="">My messages</b></a></li>
+                           <li><a href="#"><b>Logout</b></a></li>
+                       </ul>
                 </div>
             </nav>
-            <div class="social-media">
+            <!--<div class="social-media">
                <ul>
                    <li><a href="#"><i class="ion-logo-facebook" title="Facebook"></i></a></li>
                     <li><a href="#"><i class="ion-logo-twitter" title="Twitter"></i></a></li>
 <!--                    <li><a href="#"><i class="ion-logo-googleplus" title="Google Plus"></i></a></li>-->
-                    <li><a href="https://www.instagram.com/codeblooded007/"><i class="ion-logo-instagram" title="Instagram"></i></a></li>
-               </ul>
-            </div>
+<!--                    <li><a href="https://www.instagram.com/codeblooded007/"><i class="ion-logo-instagram" title="Instagram"></i></a></li>-->
+<!--               </ul>-->
+<!--            </div>-->
             <div class="aasca-heading">
                 <h1>Automatic Active Server Communication Alerts</h1>
-                
-            <div class="sch search-nav">
-                <input type="text" placeholder="Type to search" class="search-nav-opt search1" id="search" title="type here to search!">
-                <div class="search-button-1"><button class="search-button" title="search result">Search</button></div>
             </div>
-            </div>
-            
         </header>
-        <div class="quick-section">
-            <div class="row quick-button-1">
-                <button type="button" class="quick-button">Test1</button>
-                <button type="button" class="quick-button qb">Test2</button>
-                <button type="button" class="quick-button qb">Test3</button>
-                <button type="button" class="quick-button qb">Test4</button>
-            </div>
-        </div>
-        <div class="main-content">
-            <h1 class="main-ct-h1">The main content is here</h1>
-            
-            <!-- Rectangular switch -->
-            <div class="main-switch">
-                <label class="switch">
-                  <input type="checkbox">
-                  <span class="slider"></span>
-                </label>
-            </div>
-            
-        </div>
         <div class="main-sites-data">
-            <table style="width: 70%; margin-left: 15%;" class="fold-table tablesorter">
+            <table style="width: 80%; margin-left: 10%;" class="fold-table tablesorter">
               <thead>
                    <tr>
-                       <th class="number">NUMBER</th>
-                       <th class="client">CLIENT</th>
-                       <th>REASON FOR INACTIVE</th>
-                       <th class="notify-when-active">NOTIFY</th>
-                       <th class="feedback">FEEDBACK</th>
+                       <th class="website">WEBSITE</th>
+                       <th class="admin">ADMIN</th>
+                       <th class="contact">CONTACT</th>
+                       <th class="send-message">SEND MESSAGE</th>
                    </tr>
                </thead>
                <tbody>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row1');">
-                        <td>AC625</td>
+                        <td>https://www.codeblooded.org</td>
                         <td>Code Blooded</td>
-                        <td>Site running</td>
-                        <td><a href="#"><img src="vendors/icons/notify-when-active.svg" class="notify" title="Notify when site is active"></a></td>
-                        <td>037</td>
+                        <td>+58 5894379570</td>
+                        <td>
+                            <form action="/action_page.php">
+                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
+                              <input type="submit" value="Send" class="submit-message1">
+                            </form>
+                        </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row1">
                         <td colspan="5">
@@ -176,11 +158,15 @@
                         </td>
                     </tr>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row2');">
-                        <td>AP122</td>
+                        <td>https://www.apple.com</td>
                         <td>Apple</td>
-                        <td>Site running</td>
-                        <td><a href="#"><img src="vendors/icons/notify-when-active.svg" class="notify" title="Notify when site is active"></a></td>
-                        <td>032</td>
+                        <td>+46 5757973545</td>
+                        <td>
+                            <form action="/action_page.php">
+                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
+                              <input type="submit" value="Send" class="submit-message1">
+                            </form>
+                        </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row2">
                         <td colspan="5">
@@ -218,11 +204,15 @@
                         </td>
                     </tr>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row3');">
-                        <td>FB223</td>
+                        <td>https://www.facebook..com</td>
                         <td>Facebook</td>
-                        <td>Site running</td>
-                        <td><a href="#"><img src="vendors/icons/notify-when-active.svg" class="notify" title="Notify when site is active"></a></td>
-                        <td>067</td>
+                        <td>+74 4675865848</td>
+                        <td>
+                            <form action="/action_page.php">
+                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
+                              <input type="submit" value="Send" class="submit-message1">
+                            </form>
+                        </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row3">
                         <td colspan="5">
@@ -260,11 +250,15 @@
                         </td>
                     </tr>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row4');">
-                        <td>GH578</td>
+                        <td>https:/www.raisoni.net</td>
                         <td>G H Raisoni</td>
-                        <td>Down</td>
-                        <td><a href="#"><img src="vendors/icons/notify-when-active.svg" class="notify" title="Notify when site is active"></a></td>
-                        <td>058</td>
+                        <td>+91 8596593574</td>
+                        <td>
+                            <form action="/action_page.php">
+                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
+                              <input type="submit" value="Send" class="submit-message1">
+                            </form>
+                        </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row4">
                         <td colspan="5">
@@ -302,11 +296,15 @@
                         </td>
                     </tr>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row5');">
-                        <td>IND447</td>
+                        <td>https://mahadbtmahit.gov.in</td>
                         <td>MAHADBT</td>
-                        <td>Haulted</td>
-                        <td><a href="#"><img src="vendors/icons/notify-when-active.svg" class="notify" title="Notify when site is active"></a></td>
-                        <td>056</td>
+                        <td>+91 4876498987</td>
+                        <td>
+                            <form action="/action_page.php">
+                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
+                              <input type="submit" value="Send" class="submit-message1">
+                            </form>
+                        </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row5">
                         <td colspan="5">
@@ -346,48 +344,6 @@
                 </tbody>
             </table>
         </div>
-        
-        <div class="review">
-            <div>
-                <h1 class="review-h1">Rate our service </h1>
-                <div class="stars" data-rating="4">
-                    <span class="star">&nbsp;</span>
-                    <span class="star">&nbsp;</span>
-                    <span class="star">&nbsp;</span>
-                    <span class="star">&nbsp;</span>
-                    <span class="star">&nbsp;</span>
-                </div>
-            </div>
-        </div>
-        
-        <section>
-            <div class="slider1">
-
-              <div class="slides">
-                <div id="slide-1">
-                  1
-                </div>
-                <div id="slide-2">
-                  2
-                </div>
-                <div id="slide-3">
-                  3
-                </div>
-                <div id="slide-4">
-                  4
-                </div>
-                <div id="slide-5">
-                  5
-                </div>
-              </div>
-              
-              <a href="#slide-1"><i class="ion-ios-radio-button-off"></i></a>
-              <a href="#slide-2"><i class="ion-ios-radio-button-off"></i></a>
-              <a href="#slide-3"><i class="ion-ios-radio-button-off"></i></a>
-              <a href="#slide-4"><i class="ion-ios-radio-button-off"></i></a>
-              <a href="#slide-5"><i class="ion-ios-radio-button-off"></i></a>
-            </div>
-        </section>
         <footer>
             <div class="row">
                 <div class="col span-1-of-7">
@@ -432,19 +388,7 @@
             </div>
         </footer>
     </body>
-    <!--<script>
-        $( "#accordion" ).accordion();
-        
-        var sites = ["Facebook", "Twitter", "Instagram", "Apple", "Microsoft", "Lamborghini", "Nissan", "IIT-B", "DRDO", "NASA", "ISRO"];
-
-        $("#search").autocomplete({
-            source: sites
-        },{
-            autoFocus: true
-        });
-    </script>-->
-       
-    <script type="text/javascript">
+       <script type="text/javascript">
         function show_hide_row(row)
         {
          $("#"+row).toggle();
@@ -461,45 +405,8 @@
         });
 	</script>
 	<script>
-        $(document).ready(function() {
-        $("a").click(function() {
-            $("a").removeClass('slide-dot');
-            $(this).addClass('slide-dot');
-        });
-    });
-    </script>
-    <script>
-        $(document).ready(function(){
-            $('.js--section-features').waypoint(function(direction){
-            if(direction == "down"){
-                $('nav').addClass('sticky');
-            } else{
-                $('nav').removeClass('sticky');
-            }
-            },{
-                offset: '60px'
-            });
+        $(".username").click(function(){
+            
         });
     </script>
-<!--    <script>
-        function myFunction3() {
-          // Declare variables
-          var input, filter, ul, li, a, i, txtValue;
-          input = document.getElementById("search");
-          filter = input.value.toUpperCase();
-          ul = document.getElementById("slave-sites");
-          li = ul.getElementsByClassName("sblist");
-
-          // Loop through all list items, and hide those who don't match the search query
-          for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("td")[0];
-            txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-              li[i].style.display = "";
-            } else {
-              li[i].style.display = "none";
-            }
-          }
-        }
-    </script>-->
 </html>

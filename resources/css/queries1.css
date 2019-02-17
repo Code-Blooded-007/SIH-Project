@@ -67,6 +67,7 @@
     width: 20px;
     }
     
+    
     .aasca-heading{
         width: 1140px;
         font-size: 80%;
@@ -75,56 +76,30 @@
     /* For Footer*/
     
     footer{
-    height: 135px;
+        height: 25vh;
     }
     
     .logo-footer{
-    padding-top: 20%;
+    margin-top: 20%;
     height: 60%;
     width: 60%;
     }
     
     .copyright-ft{
-        font-size: 10px;
+        font-size: 0.9vw;
     }
     
     .footer-opt{
-        font-size: 14px;
-    }
-    
-    .social-media{
-        margin-top: 8%;
-        margin-left: 96%;
+        font-size: 1.2vw;
     }
     
     .social-media-ft{
-        padding-top: 24%;
+/*        padding-top: 24%;*/
         display: none;
     }
     
-    .social-media-nm{
-        padding-top: 18.5%;
-    }
-    
-    .smin{
-    font-size: 14px;
-    }
-    
-    .smi{
-        padding-right: 30%;
-        font-size: 14px;
-    }
-    
-    .smi li{
-        padding-bottom: 8%;
-    }
-    
-    .adrs{
-    padding-left: 6%;
-    }
-    
     .address{
-        padding-top: 12%;
+        font-size: 1.1vw;
     }
 }
 
@@ -209,52 +184,25 @@
     /* For Footer*/
     
     footer{
-    height: 135px;
+    height: 23vh;
     }
     
     .logo-footer{
-    padding-top: 20%;
+    margin-top: 20%;
     height: 60%;
     width: 60%;
     }
     
     .copyright-ft{
-        font-size: 10px;
+        font-size: 1vw;
     }
     
     .footer-opt{
-        font-size: 14px;
-    }
-    
-    .social-media{
-        margin-top: 8%;
-        margin-left: 96%;
-    }
-    
-    .social-media-ft{
-        padding-top: 20%;
-        display: none;
-    }
-    
-    .social-media-nm{
-        padding-top: 18.5%;
-    }
-    
-    .smin{
-    font-size: 14px;
-    }
-    
-    .smi{
-        padding-right: 30%;
-/*        font-size: 14px;*/
-    }
-    
-    .adrs{
-    padding-left: 6%;
+        font-size: 1.1vw
     }
     
     .address{
-        padding-top: 12%;
+        font-size: 1.3vw;
     }
 }
 
@@ -338,21 +286,21 @@
     /* For Footer*/
     
     footer{
-    height: 135px;
+    height: 22vh;
     }
     
     .logo-footer{
-    padding-top: 20%;
-    height: 60%;
-    width: 60%;
+    margin-top: 20%;
+    height: 75%;
+    width: 75%;
     }
     
     .copyright-ft{
-        font-size: 9px;
+        font-size: 1vw;
     }
     
     .footer-opt{
-        font-size: 13px;
+        font-size: 1.5vw;
     }
     
     .social-media{
@@ -360,21 +308,27 @@
         margin-left: 95%;
     }
     
-    .social-media-ft{
-        padding-top: 22%;
+    .social-media-nm{
+        display: none;
     }
     
-    .smin{
-    font-size: 13px;
+    .social-media-ft{
+        padding-top: 22%;
     }
     
     .smi{
         padding-right: 18%;
     }
     
+    .address{
+        font-size: 1.3vw;
+    }
+    
     .adrs{
     padding-left: 6%;
     }
+    
+    /* Responsive footer is ready upto here*/
 }
 
 /* Small Phones and tablets : from 481px to 767px */
@@ -501,7 +455,7 @@
     }
     
     .logo-footer{
-    padding-top: 20%;
+    margin-top: 20%;
     height: 60%;
     width: 60%;
     }
@@ -619,7 +573,7 @@
     }
     
     .logo-footer{
-    padding-top: 20%;
+    margin-top: 20%;
     height: 60%;
     width: 60%;
     }
@@ -724,7 +678,7 @@
     }
     
     .logo-footer{
-        padding-top: 5%;
+        margin-top: 5%;
         height: 20%;
         width: 20%;
         margin-left: 4%;

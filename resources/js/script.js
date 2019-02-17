@@ -28,3 +28,14 @@
             });
             document.querySelector('.stars').setAttribute('data-rating', num);
         }
+
+//For drop down options on clicking the username
+
+function show_options() {
+  var x = document.getElementById("user-opt");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
