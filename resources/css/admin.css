@@ -174,7 +174,8 @@ nav a{
     font-size: 18px;
     padding-bottom: 7px;
     padding-left: 12px;
-    height: 32px;
+    height: 2.8vw;
+    width: 16.7vw;
     background-size: 110%;
     background-image: linear-gradient(to right, #535353, #747474);
 }
