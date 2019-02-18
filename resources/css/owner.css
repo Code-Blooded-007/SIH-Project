@@ -1,0 +1,67 @@
+/*------------------------------------*/
+/*-------Active-Inactive Button-------*/
+/*------------------------------------*/
+
+.active-button{
+    width: 5vw;
+    height: 2vw;
+    color: #fff;
+    background-color: #0fc100;
+    border: none;
+    border-radius: 0.2vw;
+}
+
+.active-button:hover,
+.active-button:active{
+    cursor: not-allowed;
+}
+
+.status{
+    width: 10vw !important;
+}
+
+.remark{
+    width: 20vw !important;
+}
+
+.remove{
+    
+}
+
+.delete-site{
+    width: 5vw;
+    height: 2vw;
+    color: #fff;
+    background-color: #ef4d1d;
+    border: none;
+    border-radius: 0.2vw;
+}
+
+.delete-site:hover,
+.delete-size:active{
+    cursor: pointer;
+}
+
+.remark1{
+    width: 16vw;
+    height: 2.2vw;
+    color: #fff;
+    background-color: #aaaaaa;
+    border: none;
+    border-radius: 0.2vw;
+}
+
+.post-remark{
+    width: 5vw;
+    height: 2vw;
+    margin-left: 4%;
+    color: #fff;
+    background-color: #0055de;
+    border: none;
+    border-radius: 0.2vw;
+}
+
+.post-remark:hover,
+.post-remark:active{
+    cursor: pointer;
+}

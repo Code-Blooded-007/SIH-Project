@@ -14,6 +14,7 @@
 <!--        <link rel="stylesheet" type="text/css" href="resources/css/queries1.css">-->
 <!--        <link rel="stylesheet" type="text/css" href="resources/css/style.css">-->
         <link rel="stylesheet" type="text/css" href="resources/css/admin.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/owner.css">
         <link rel="stylesheet" type="text/css" href="resources/css/admin_query.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
         <link href="https://unpkg.com/ionicons@4.4.7/dist/css/ionicons.min.css" rel="stylesheet" type="text/css">
@@ -80,7 +81,7 @@
                     </ul>
                   </div>
                        <a class="username" onclick="show_options()"><b>@codeblooded007</b></a><br>
-                       <span class="badge4">Super Admin</span>
+<!--                       <span class="badge4">Super Admin</span>-->
                        <ul class="usr-nm-opt" id="user-opt">
                            <li><a href="#"><b>Profile</b></a></li>
                            <li><a href="#"><b class="">My messages</b></a></li>
@@ -101,29 +102,25 @@
             </div>
         </header>
         <div class="main-sites-data">
-            <table style="width: 85%; margin-left: 7.5%;" class="fold-table tablesorter">
+            <table style="width: 80%; margin-left: 10%;" class="fold-table tablesorter">
               <thead>
                    <tr>
                        <th class="website">WEBSITE</th>
-                       <th class="admin">ADMIN</th>
-                       <th class="contact">CONTACT</th>
-                       <th class="send-message">SEND MESSAGE</th>
-                       <th class="remove-site">REMOVE</th>
+                       <th class="admin">STATUS</th>
+                       <th class="contact remark">REMARK</th>
+                       <th class="send-message">REMOVE</th>
                    </tr>
                </thead>
                <tbody>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row1');">
                         <td>https://www.codeblooded.org</td>
-                        <td>Code Blooded</td>
-                        <td>+58 5894379570</td>
+                        <td><button class="active-button">Active</button></td>
+                        <td><form action="/action_page1.php">
+                              <input type="text" name="remark" placeholder="Comment" class="remark1">
+                              <input type="submit" value="Post" class="post-remark">
+                            </form></td>
                         <td>
-                            <form action="/action_page.php">
-                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
-                              <input type="submit" value="Send" class="submit-message1">
-                            </form>
-                        </td>
-                        <td>
-                            <input type="submit" value="Delete" class="delete-site2">
+                            <input type="submit" value="Delete" class="delete-site">
                         </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row1">
@@ -163,16 +160,15 @@
                     </tr>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row2');">
                         <td>https://www.apple.com</td>
-                        <td>Apple</td>
-                        <td>+46 5757973545</td>
+                        <td><button class="active-button">Active</button></td>
                         <td>
-                            <form action="/action_page.php">
-                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
-                              <input type="submit" value="Send" class="submit-message1">
+                        <form action="/action_page1.php">
+                              <input type="text" name="remark" placeholder="Comment" class="remark1">
+                              <input type="submit" value="Post" class="post-remark">
                             </form>
                         </td>
                         <td>
-                            <input type="submit" value="Delete" class="delete-site2">
+                            <input type="submit" value="Delete" class="delete-site">
                         </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row2">
@@ -212,16 +208,15 @@
                     </tr>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row3');">
                         <td>https://www.facebook..com</td>
-                        <td>Facebook</td>
-                        <td>+74 4675865848</td>
+                        <td><button class="active-button">Active</button></td>
                         <td>
-                            <form action="/action_page.php">
-                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
-                              <input type="submit" value="Send" class="submit-message1">
+                            <form action="/action_page1.php">
+                              <input type="text" name="remark" placeholder="Comment" class="remark1">
+                              <input type="submit" value="Post" class="post-remark">
                             </form>
                         </td>
                         <td>
-                            <input type="submit" value="Delete" class="delete-site2">
+                            <input type="submit" value="Delete" class="delete-site">
                         </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row3">
@@ -261,16 +256,15 @@
                     </tr>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row4');">
                         <td>https:/www.raisoni.net</td>
-                        <td>G H Raisoni</td>
-                        <td>+91 8596593574</td>
+                        <td><button class="active-button">Active</button></td>
                         <td>
-                            <form action="/action_page.php">
-                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
-                              <input type="submit" value="Send" class="submit-message1">
+                            <form action="/action_page1.php">
+                              <input type="text" name="remark" placeholder="Comment" class="remark1">
+                              <input type="submit" value="Post" class="post-remark">
                             </form>
                         </td>
                         <td>
-                            <input type="submit" value="Delete" class="delete-site2">
+                            <input type="submit" value="Delete" class="delete-site">
                         </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row4">
@@ -310,16 +304,15 @@
                     </tr>
                     <tr class="tr-border"  onclick="show_hide_row('hidden_row5');">
                         <td>https://mahadbtmahit.gov.in</td>
-                        <td>MAHADBT</td>
-                        <td>+91 4876498987</td>
+                        <td><button class="active-button">Active</button></td>
                         <td>
-                            <form action="/action_page.php">
-                              <input type="text" name="message" placeholder="Leave a message" class="send-message1">
-                              <input type="submit" value="Send" class="submit-message1">
+                            <form action="/action_page1.php">
+                              <input type="text" name="remark" placeholder="Comment" class="remark1">
+                              <input type="submit" value="Post" class="post-remark">
                             </form>
                         </td>
                         <td>
-                            <input type="submit" value="Delete" class="delete-site2">
+                            <input type="submit" value="Delete" class="delete-site">
                         </td>
                     </tr>
                     <tr class="hidden_row hdn-row" id="hidden_row5">
