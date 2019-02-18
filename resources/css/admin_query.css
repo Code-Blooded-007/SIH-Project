@@ -4,3 +4,10 @@
         display: none;
     }
 }
+
+/* Big tablets : from 1200 to device-width */
+@media only screen and (max-width: 1200px){
+    .mobile-nav-icon{
+        display: none;
+    }
+}
