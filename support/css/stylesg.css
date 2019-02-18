@@ -1,0 +1,92 @@
+.container {
+	position:relative ;
+	width:71.848958333333336vw;
+	right:9.208333333333333vw;
+	left:9.208333333333333vw;
+	padding:1.3020833333333333vw;
+	margin:4.557291666666667vw;
+	background-color:white;
+}
+.back {
+	background-image:url("../Image Stocks/back.jpg");
+	height:auto;
+	max-width:100% ;
+	background-position:auto ;
+	background-repeat:no-repeat ;
+	background-size:cover ;
+	position:relative ;
+}
+input[type=text] , [type=password]  ,  [type=email] , select ,  [type=url] ,  [type=tel] , [type=date] {
+	border:none;
+	border-bottom:0.13020833333333334vw solid #9966ff;
+	outline:none;
+	margin:0.5208333333333334vw 0;
+	width:40%;
+	padding:1.3020833333333333vw 0.78125vw;
+	-webkit-transition: width 0.4s ease-in-out;
+}
+input[type=date] , [type=file]{
+	border:none;
+	outline:none;
+}
+fieldset{
+	border:none;
+	border-top:0.06510416666666667vw dotted black ;
+	outline:none;
+}
+legend {
+	margin-left:40% ;
+	margin-right:40% ;
+}
+select {
+	width:60%;
+	padding:1.3020833333333333vw 0.78125vw;
+}
+.ani:focus {
+	width: 70%;
+}
+input[type=tel] {
+	width:70%;
+}
+input[type=button] {
+	background-color:#b30000;
+}
+input[type=button]:hover{
+	background-color: #e60000;
+	opacity:0.7;
+}
+input[type=submit],[type=button]{
+	color:white ;
+	border:none ;
+	border-radius:0.390625vw;
+	cursor:pointer ;
+	width:6.510416666666667vw ;
+	height:3.2552083333333335vw;
+	padding:0.78125vw 1.3020833333333333vw ;
+	margin:0.5208333333333334vw 0 ;
+	border:none ;
+}
+input[type=submit] {
+	background-color:#000066;
+}
+input[type=submit]:hover {
+	background-color:#000099;
+	opacity:0.7;
+}
+.text {
+	font-family:"tisa","oswald & abel","Alternate Gothic";
+	font-weight:bold;
+	font-size:17px;
+}
+.fo{
+	font-family:"Merriweather" ;
+}
+.ta {
+	font-family:"tisa","oswald & abel","Alternate Gothic";
+	font-size:1.3vw;
+}
+.tb {
+	font-size:1.1vw;
+}
+
+

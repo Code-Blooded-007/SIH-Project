@@ -254,9 +254,13 @@ nav a{
     padding-left: 8%;
 }
 
+#sign-up{
+    color: #fff;
+}
+
 .sign-up{
     float: right;
-    color: #fff;
+    color: #fff !important;
     margin-right: 2%;
     border-radius: 200px;
     border: none;

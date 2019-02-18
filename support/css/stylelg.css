@@ -1,0 +1,70 @@
+.back1 {
+	background-image:url("../Image Stocks/3D BG/Exported/150ppi/3D BG.png");
+    height:auto;
+	max-width:100% ;
+	background-position:auto ;
+	background-repeat:no-repeat ;
+	background-size:cover ;
+	position:relative ;
+}
+input[type=email] , [type=password] {
+	width:100% ;
+	padding:0.78125vw 1.3020833333333333vw ;
+	margin:0.5208333333333334vw 0 ;
+	border:none ;
+	border-bottom:0.13020833333333334vw solid #000033 ;
+	outline:none ;
+}
+input[type=submit],[type=reset],[type=button]{
+	width:100% ;
+	padding:0.78125vw 1.3020833333333333vw ;
+	margin:0.5208333333333334vw 0 ;
+	color:white ;
+	border:none ;
+	border-radius:0.390625vw;
+	cursor:pointer ;
+}
+input[type=submit] {
+	background-color:#990099 ;
+}
+input[type=reset] {
+	background-color:#6600ff ;
+}
+input[type=submit]:hover {
+	background-color:#660066 ;
+	opacity:0.5 ;
+}
+input[type=reset]:hover {
+	background-color:#290066 ;
+	opacity:0.5 ;
+}
+input[type=button] {
+	background-color:#ff4d4d ;
+}
+input[type=button]:hover {
+	background-color:#ff0000 ;
+	opacity:0.5 ;
+}
+.image {
+	opacity:1 ;
+	margin-top: 0 ;
+	height:42.083333333333336vw ;
+	width:60.317708333333336vw ;
+}
+.content {
+  position: absolute;
+  top:1.3020833333333333vw;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.3);
+  color: #f1f1f1;
+  width: 35%;
+  margin-left:6.557291666666667vw ;
+  padding: 0.6510416666666666vw;
+  border-radius:1.171875vw ;
+}
+.text {
+	font-family:"tisa","oswald & abel","Alternate Gothic";
+	font-weight:bold;
+	font-size:17px;
+}
+	
