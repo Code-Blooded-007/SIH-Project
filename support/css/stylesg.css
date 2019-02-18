@@ -1,4 +1,4 @@
-.container {
+.container{
 	position:relative ;
 	width:71.848958333333336vw;
 	right:9.208333333333333vw;
@@ -7,7 +7,7 @@
 	margin:4.557291666666667vw;
 	background-color:white;
 }
-.back {
+.back{
 	background-image:url("../Image Stocks/back.jpg");
 	height:auto;
 	max-width:100% ;
@@ -16,7 +16,7 @@
 	background-size:cover ;
 	position:relative ;
 }
-input[type=text] , [type=password]  ,  [type=email] , select ,  [type=url] ,  [type=tel] , [type=date] {
+input[type=text],[type=password],[type=email],select,[type=url],[type=tel],[type=date]{
 	border:none;
 	border-bottom:0.13020833333333334vw solid #9966ff;
 	outline:none;
@@ -25,7 +25,7 @@ input[type=text] , [type=password]  ,  [type=email] , select ,  [type=url] ,  [t
 	padding:1.3020833333333333vw 0.78125vw;
 	-webkit-transition: width 0.4s ease-in-out;
 }
-input[type=date] , [type=file]{
+input[type=date],[type=file]{
 	border:none;
 	outline:none;
 }
@@ -34,21 +34,21 @@ fieldset{
 	border-top:0.06510416666666667vw dotted black ;
 	outline:none;
 }
-legend {
+legend{
 	margin-left:40% ;
 	margin-right:40% ;
 }
-select {
+select{
 	width:60%;
 	padding:1.3020833333333333vw 0.78125vw;
 }
-.ani:focus {
+.ani:focus{
 	width: 70%;
 }
-input[type=tel] {
+input[type=tel]{
 	width:70%;
 }
-input[type=button] {
+input[type=button]{
 	background-color:#b30000;
 }
 input[type=button]:hover{
@@ -66,14 +66,14 @@ input[type=submit],[type=button]{
 	margin:0.5208333333333334vw 0 ;
 	border:none ;
 }
-input[type=submit] {
+input[type=submit]{
 	background-color:#000066;
 }
-input[type=submit]:hover {
+input[type=submit]:hover{
 	background-color:#000099;
 	opacity:0.7;
 }
-.text {
+.text{
 	font-family:"tisa","oswald & abel","Alternate Gothic";
 	font-weight:bold;
 	font-size:17px;
@@ -81,12 +81,112 @@ input[type=submit]:hover {
 .fo{
 	font-family:"Merriweather" ;
 }
-.ta {
+.ta{
 	font-family:"tisa","oswald & abel","Alternate Gothic";
 	font-size:1.3vw;
 }
-.tb {
+.tb{
 	font-size:1.1vw;
+}
+.container1{
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container1 input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+.container1:hover input ~ .checkmark{
+  background-color: #ccc;
+}
+.container1 input:checked ~ .checkmark{
+  background-color: #ff0000;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container1 input:checked ~ .checkmark:after{
+  display: block;
+}
+.container1 .checkmark:after{
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.container2{
+   display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container2 input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container2:hover input ~ .checkmark1{
+  background-color: #ccc;
+}
+.container2 input:checked ~ .checkmark1{
+  background-color: #ff0000;
+}
+.checkmark1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container2 input:checked ~ .checkmark1:after{
+  display: block;
+}
+.container2 .checkmark1:after{
+ 	top: 7px;
+	left: 7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: white;
 }
 
 

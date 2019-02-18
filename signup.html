@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <title> Sign Up </title>
+  <title>Sign Up</title>
   <link rel="stylesheet" href="support/tel/build/css/intlTelInput.css">
   <link rel="stylesheet" href="support/tel/build/css/demo.css">
   <link rel="stylesheet" href="support/css/stylesg.css">
-  
-        <link rel="apple-touch-icon" sizes="180x180" href="resources\favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="resources\favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="resources\favicons/favicon-16x16.png">
-        <link rel="manifest" href="resources\favicons/site.webmanifest">
-        <link rel="mask-icon" href="resources\favicons/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="resources\favicons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="resources\favicons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
 </head>
 
 <body class="back">
-<form class="container w3-mobile" autocomplete="on">
+<form class="container" class="w3-mobile" autocomplete="on">
 <h1>&nbsp &nbsp Sign Up</h1><br><br>
 <fieldset>
-<legend> <span class="ta"> &nbsp &nbsp Personal Details &nbsp &nbsp </span> </legend><br><br>
+<legend> <span class="ta"> &nbsp &nbsp Personal Details &nbsp &nbsp </span></legend><br><br>
 <span class="text">First Name</span> <br>
 <i class="fas fa-user"></i>&nbsp
-<input class="ani" type="text" name="firstname" placeholder="firstname" required >
+<input class="ani" type="text" name="firstname" placeholder="firstname" required>
 <br>
 <br><br>
 <span class="text">Last Name</span> <br>
 <i class="far fa-user"></i>&nbsp
-<input class="ani" type="text" name="lastname" placeholder="lastname" required >
+<input class="ani" type="text" name="lastname" placeholder="lastname" required>
 <br>
 <br><br>
-<span class="text">Birthdate</span> <br>
+<span class="text">Birthdate</span><br>
 <i class="far fa-calendar"></i>
 <input type="date" name="birthdate" pattern="dd/mm/yyyy">
 <br>
 <br><br>
-<span class="text">Gender </span><br>
+<span class="text">Gender</span><br><br>
+<label class="container2">&nbsp
+<i class="fa fa-male"></i>&nbsp  Male<br>
 <input class="w3-radio" type="radio" name="gender" value="Male" style="cursor:pointer">&nbsp &nbsp
-<i class="fa fa-male"></i>&nbsp 
-Male <br>
+<span class="checkmark1"></span>
+</label>
+<label class="container2">&nbsp
+<i class="fa fa-female"></i>&nbsp  Female<br>
 <input class="w3-radio" type="radio" name="gender" value="female" style="cursor:pointer">&nbsp &nbsp
-<i class="fa fa-female"></i>&nbsp
-Female <br>
-<input class="w3-radio" type="radio" name="gender" value="other" required style="cursor:pointer">&nbsp &nbsp Other <br>
+<span class="checkmark1"></span>
+</label>
+<label class="container2">&nbsp Other<br>
+<input class="w3-radio" type="radio" name="gender" value="other" required style="cursor:pointer">
+<span class="checkmark1"></span>
+</label>
 <br>
-<br><br>
+<br>
 <i class="fa fa-location-arrow"></i>&nbsp
 <span class="text">Country</span><br>
-<select name="country" style="cursor:pointer" >
+<select name="country" style="cursor:pointer">
     <option value="">Country...</option>
 	<option value="AF">Afghanistan</option>
 	<option value="AX">Åland Islands</option>
@@ -310,7 +306,7 @@ Female <br>
 <br>
 <br><br>
 <i class="fas fa-mobile-alt"></i>&nbsp
-<span class="text">Mobile </span><br>
+<span class="text">Mobile</span><br>
 <input id="phone" name="phone" type="tel" required>
 <br>
 <br>
@@ -325,19 +321,37 @@ Female <br>
 <br>
 <br>
 <fieldset>
-<legend> <span class="ta"> &nbsp &nbsp Registration &nbsp &nbsp </span> </legend><br><br>
+<legend><span class="ta"> &nbsp &nbsp Registration &nbsp &nbsp </span></legend><br><br>
 <span class="text">Website URL</span><br>
 <i class="fa fa-globe"></i>&nbsp
-<input class="ani" type="url" name="url" required >
+<input class="ani" type="url" name="url" required>
 <br>
 <br><br>
 <span class="text">Website Relation</span><br><br>
-<input class="w3-check" type="checkbox" name="relation1" value="owner" style="cursor:pointer" required >&nbsp &nbsp Owner<br>
-<input class="w3-check" type="checkbox" name="relation2" value="Co-owner" style="cursor:pointer" >&nbsp &nbsp CO-Owner<br>
-<input class="w3-check" type="checkbox" name="relation3" value="admin" style="cursor:pointer">&nbsp &nbsp Admin<br>
-<input class="w3-check" type="checkbox" name="relation4" value="Co-admin" style="cursor:pointer">&nbsp &nbsp CO-Admin<br>
-<input class="w3-check" type="checkbox" name="relation5" value="developer" style="cursor:pointer">&nbsp &nbsp Developer<br>
-<input class="w3-radio" type="radio" name="relation6" value="other" style="cursor:pointer">&nbsp &nbsp Other<br>
+<label class="container1">&nbsp &nbsp Owner<br>
+<input class="w3-check" type="checkbox" name="relation1" value="owner" style="cursor:pointer" required>
+<span class="checkmark"></span>
+</label>
+<label class="container1">&nbsp &nbsp CO-Owner<br>
+<input class="w3-check" type="checkbox" name="relation2" value="Co-owner" style="cursor:pointer">
+<span class="checkmark"></span>
+</label>
+<label class="container1">&nbsp &nbsp Admin<br>
+<input class="w3-check" type="checkbox" name="relation3" value="admin" style="cursor:pointer">
+<span class="checkmark"></span>
+</label>
+<label class="container1">&nbsp &nbsp CO-Admin<br>
+<input class="w3-check" type="checkbox" name="relation4" value="Co-admin" style="cursor:pointer">
+<span class="checkmark"></span>
+</label>
+<label class="container1">&nbsp &nbsp Developer<br>
+<input class="w3-check" type="checkbox" name="relation5" value="developer" style="cursor:pointer">
+<span class="checkmark"></span>
+</label>
+<label class="container2">&nbsp &nbsp Other<br>
+<input class="w3-radio" type="radio" name="relation6" value="other" style="cursor:pointer">
+<span class="checkmark1"></span>
+</label>
 <br>
 <br><br>
 <span class="text" >verification Document</span><br><br>
@@ -346,26 +360,26 @@ Female <br>
 <br><br>
 </fieldset>
 <fieldset>
-<legend><span class="ta"> &nbsp &nbsp Login Details &nbsp &nbsp </span> </legend><br><br>
+<legend><span class="ta"> &nbsp &nbsp Login Details &nbsp &nbsp </span></legend><br><br>
 <span class="text">E-mail</span> <br>
 <i class="fas fa-envelope"></i>&nbsp
 <input class="ani" type="email" name="email" placeholder="E-mail" required>
 <br>
 <br>
-<span class="text">Password</span><br>
+<span class="text" >Password</span><br>
 <i class="fa fa-lock"></i>&nbsp
-<input class="ani" type="password" name="password" required>
+<input class="ani" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 <br>
 <br>
 <span class="text">Conform Password</span><br>
 <i class="fa fa-lock"></i>&nbsp
-<input class="ani" type="password" name="password" required>
+<input class="ani" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 <br>
 <br>
 </fieldset>
 <br>
 <br><br>
-<input class="w3-check" type="checkbox" name="terms" style="cursor:pointer" >
+<input class="w3-check" type="checkbox" name="terms" style="cursor:pointer" required >
 <label>Agree to the Terms and Conditions</label>
 <br>
 <br>

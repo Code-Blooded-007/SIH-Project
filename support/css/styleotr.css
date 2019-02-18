@@ -1,4 +1,4 @@
-.back {
+.back{
 	background-image:url("../Image Stocks/3D BG/Exported/150ppi/3D BG.png");
     height:auto;
 	max-width:100% ;
@@ -7,7 +7,7 @@
 	background-size:cover ;
 	position:relative ;
 }
-input[type=text] ,  [type=email] , select ,  [type=url] ,  [type=tel] {
+input[type=text],[type=email],select,[type=url],[type=tel]{
 	border:none;
 	border-bottom:0.13020833333333334vw solid #9966ff;
 	outline:none;
@@ -16,17 +16,17 @@ input[type=text] ,  [type=email] , select ,  [type=url] ,  [type=tel] {
 	padding:1.3020833333333333vw 0.78125vw;
 	-webkit-transition: width 0.4s ease-in-out;
 }
-select {
+select{
 	width:60%;
 	padding:1.3020833333333333vw 0.78125vw;
 }
-.ani:focus {
+.ani:focus{
 	width: 70%;
 }
-input[type=tel] {
+input[type=tel]{
 	width:70%;
 }
-input[type=button] {
+input[type=button]{
 	background-color:#b30000;
 }
 input[type=button]:hover{
@@ -40,27 +40,27 @@ input[type=submit],[type=button]{
 	border-radius:0.390625vw;
 	cursor:pointer ;
 }
-input[type=submit] {
+input[type=submit]{
 	background-color:#000066;
 }
-input[type=submit]:hover {
+input[type=submit]:hover{
 	background-color:#000099;
 	opacity:0.7;
 }
-.text {
+.text{
 	font-family:"tisa","oswald & abel","Alternate Gothic";
 	font-weight:bold;
 	font-size:1.1vw;
 }
-.layout1 {
+.layout1{
 	w3-width:59% ;
 	background-color:#a366ff;
 }
-.a {
+.a{
 	height:52.734375vw; 
 	width:52.734375vw;;
 }
-.content {
+.content{
   position: absolute;
   top:2.6041666666666665vw;
   left: 8.510416666666667vw;
@@ -72,7 +72,7 @@ input[type=submit]:hover {
   padding: 0.6510416666666666vw;
   text-align:center ;
 }
-.texta {
+.texta{
 	font-weight:bold;
 	font-size:11vw;
 }
@@ -86,7 +86,7 @@ input[type=submit]{
 	border-radius:0.390625vw;
 	cursor:pointer ;
 }
-.dis {
+.dis{
 	background:none;
 	outline:none ;
 	border:none;
