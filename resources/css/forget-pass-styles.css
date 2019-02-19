@@ -1,0 +1,81 @@
+.box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 7vh;
+	font-size: 1.2vw;
+	border-radius: 1.4vw;
+	border: 1px solid;
+}
+
+body{
+	background-image: url(img/duotone.png);
+}
+.box{
+	border: 40vw;
+
+}
+.div-prop {
+  width: 300px;
+/*  border: 25px solid #fff;*/
+  padding: 25px;
+  margin: 25px;
+  align-content: center;
+}
+
+.box{
+	/*width: 320px;*/
+	/*height: 420px;*/
+	height: 70vh;
+	width: 27vw;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px ;
+}
+h4{
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: center;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  	font-size:medium;
+	font-style: italic;
+}
+.box{
+	font-weight:italic ;
+}
+.box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.box input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.box input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.box input[type="submit"]:hover
+{
+	cursor: pointer;
+  color: black;
+  border: 2px solid #555555;
+}
