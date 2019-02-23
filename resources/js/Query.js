@@ -1,3 +1,4 @@
+(function ($){
 $(document).ready(function(){
     
     /*-------For Sticky Navigation-------*/
@@ -54,3 +55,4 @@ $(document).ready(function(){
     
 
 });
+})(jQuery);

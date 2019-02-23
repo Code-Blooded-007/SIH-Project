@@ -129,6 +129,7 @@ nav a{
 .search-nav{
     padding-right: 8px;
     padding-left: 5%;
+/*    display: flex !important;*/
 }
 
 .cont{
@@ -196,9 +197,14 @@ nav a{
     text-decoration: none;
 }
 
+.search-flex{
+    display: flex !important;
+}
+
 .search-button{
     height: 7vh;
     width: 12vw;
+    margin-left: 8%;
     font-size: 1.8vw;
     color: #fdfdfd;
     border-radius: 5vw;
@@ -219,7 +225,7 @@ nav a{
 }
 
 .search-button-1{
-    padding-top: 3.5vh;
+    padding-top: 2%;
     padding-right: 14%;
 }
 
