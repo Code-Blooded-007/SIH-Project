@@ -156,7 +156,7 @@
 /* Big tablets to 1200px(width smaller than the 1140px row) */
 @media only screen and (max-width: 1202px){    
     nav{
-        height: 70px;
+        height: 25vh;
     }
     
     .logo{
@@ -751,7 +751,7 @@
     /*For Footer*/
     
     footer{
-    height: 130px;
+    height: 23vh;
     }
     
     .logo-footer{
@@ -840,6 +840,11 @@
     
     .username{
         margin-top: 3.4vw;
+    }
+    
+    /*-------Footer-------*/
+    footer{
+        height: 20vh;
     }
 }
 
@@ -1048,7 +1053,7 @@
     /*For Footer*/
     
     footer{
-        height: 600px;
+        height: 85vh;
     }
     
     .logo-footer{
