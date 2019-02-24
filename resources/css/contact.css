@@ -192,6 +192,110 @@ nav a{
     color: #fff;
 }
 
+/*-------FAQ-------*/
+
+.faq{
+    background-color: #dddddd;
+}
+
+.faq-que{
+    margin-left: 30%;
+    list-style: none;
+}
+
+.faq-que li{
+    margin-bottom: 2vw;
+}
+
+.faq-que li a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.faq-que li a:hover,
+.faq-que li a:active{
+    color: #2a2a2a;
+    font-weight: 400;
+}
+
+/*-------FORM-------*/
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-title:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 30px auto 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+
+.form-messages{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.success{
+    background-color: #3bd947;
+}
+
+.error{
+    background-color: #e33232;
+}
+
+*:focus{outline: none}
+
+.submit{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 310;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.submit:hover,
+.submit:active{
+    background-color: #d06e18;
+    cursor: pointer;
+}
+
 /*--------------------------------------------------------------------*/
 /*FOOTER*/
 /*--------------------------------------------------------------------*/

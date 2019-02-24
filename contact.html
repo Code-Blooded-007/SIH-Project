@@ -85,10 +85,79 @@
                 </div>
             </nav>
         </header>
+          
+          <section class="faq">
+            <div class="row">
+                <h2 class="form-title">FAQ's</h2>
+            </div>
+            
+            <div class="row">
+                <ul class="faq-que">
+                    <li><i class="ion-ios-arrow-dropright"></i>&nbsp;&nbsp;<a href="#">Problem in receiving notification?</a></li>
+                    <li><i class="ion-ios-arrow-dropright"></i>&nbsp;&nbsp;<a href="#">Problem regarding signing in?</a></li>
+                    <li><i class="ion-ios-arrow-dropright"></i>&nbsp;&nbsp;<a href="#">Problem in registration?</a></li>
+                </ul>
+            </div>
+          </section>
            
-           <section>
-               <!--Write all the code for contact page here-->
-           </section>
+        <section class="section-form" id="form">
+            <div class="row">
+                <h2 class="form-title">Get the help from codeblooded</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="mailer.php" class="contact-form">
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your Email address" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">Problem Category</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Notification</option>
+                                <option value="login">Login</option>
+                                <option value="sign-up">Sign UP</option>
+                                <option value="search">User Interface</option>
+                                <option value="ad">Service</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>How we can help you?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="send it!" class="submit">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
             
            <footer>
             <div class="row">
