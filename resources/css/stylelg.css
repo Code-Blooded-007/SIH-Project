@@ -1,0 +1,80 @@
+input[type=text] , [type=password] {
+	width:100% ;
+	padding:0.78125vw 1.3020833333333333vw ;
+	margin:0.5208333333333334vw 0 ;
+	border:none ;
+	border-bottom:0.13020833333333334vw solid #000033 ;
+	outline:none ;
+}
+label {
+	font-size:0.6510416666666666vw ;
+	font-style:italic ;
+}
+input[type=submit],[type=reset],[type=button]{
+	width:100% ;
+	padding:0.78125vw 1.3020833333333333vw ;
+	margin:0.5208333333333334vw 0 ;
+	color:white ;
+	border:none ;
+	border-radius:0.390625vw;
+	cursor:pointer ;
+}
+input[type=submit] {
+	background-color:#990099 ;
+}
+input[type=reset] {
+	background-color:#6600ff ;
+}
+input[type=submit]:hover {
+	background-color:#660066 ;
+	opacity:0.5 ;
+}
+input[type=reset]:hover {
+	background-color:#290066 ;
+	opacity:0.5 ;
+}
+input[type=button] {
+	background-color:#ff4d4d ;
+}
+input[type=button]:hover {
+	background-color:#ff0000 ;
+	opacity:0.5 ;
+}
+.bg {
+	background-image:url(img/app-apple-application-38544.jpg);
+	min-height:100% ;
+	width:100% ;
+	background-position:auto ;
+	background-repeat:no-repeat ;
+	background-size:cover ;
+	position:relative ;
+}
+.container {
+  position: absolute;
+  right: 0;
+  margin: 4.557291666666667vw;
+  width: 30%;
+  padding: 1.171875vw;
+  background-color: white;
+}
+a{
+	text-decoration:none ;
+}
+a:hover {
+	color:#330033 ;
+}
+.content {
+  position: absolute;
+  top:20%;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 40%;
+  margin-left:4.557291666666667vw ;
+  padding: 0.6510416666666666vw;
+}
+img {
+	width:10% ;
+	height:10% ;
+}
+

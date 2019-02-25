@@ -540,6 +540,11 @@ td{
     background-color: #aaaaaa !important;
 }
 
+tr:hover,
+tr:active{
+    background-color: #89fff6;
+}
+
 .radio-input{
     display: none !important;
 }

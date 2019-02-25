@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="resources/css/stylesu.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="resources\favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources\favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources\favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources\favicons/site.webmanifest">
+        <link rel="mask-icon" href="resources\favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources\favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="resources\favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+        <title>Sign UP here!</title>
+        
+</head>
+<body class="bg">
+<div class="content" > 
+    <img src="vendors/icons/Artboard%201.svg" alt="Code_blooded 007" >
+    <h1 style="font-size:2.2vw;font-family: :'Times New Roman', 'Times', 'serif'">SIGN UP </h1>
+</div>
+<br><br><br>
+<form id="regForm" >
+  <div class="tab">Personal Details<br><br><br>
+    <i class="fas fa-user"></i>&nbsp First Name
+    <p><input placeholder="First name..." oninput="this.className = ''" name="firstname" required></p>
+    <i class="far fa-user"></i>&nbsp Last Name
+    <p><input placeholder="Last name..." oninput="this.className = ''" name="lastname" required></p>
+    <i class="fas fa-mobile-alt"></i>&nbsp Mobile
+    <p><input type="tel" placeholder="Phone..." oninput="this.className = ''" name="phone" required></p>
+    <i class="far fa-calendar"></i> &nbsp Birthdate
+    <p><input type="date" oninput="this.className = ''" name="birthdate" required></p>
+    Gender<br>
+    <p>
+      <input class="w3-radio" type="radio"  name="gender" value="Male" style="cursor:pointer">&nbsp &nbsp  <i class="fa fa-male"></i>&nbsp  Male
+    </p>
+    <p>
+      <input class="w3-radio" type="radio"  name="gender" value="female" style="cursor:pointer">&nbsp &nbsp   <i class="fa fa-female"></i>&nbsp  Female
+    </p>
+    <p>
+      <input class="w3-radio" type="radio"  name="gender" value="other" required style="cursor:pointer">&nbsp &nbsp &nbsp Other
+    </p>
+  </div>
+  <div class="tab">Registration <br><br><br>
+    <i class="fa fa-globe"></i> &nbsp Website URL
+     <p>
+        <input oninput="this.className = ''" type="url" name="url" required>
+     </p>
+     Website Relation
+     <p>
+        <input class="w3-check" type="checkbox" name="relation1" value="owner" style="cursor:pointer" required>
+        Owner
+     </p>
+     <p>
+        <input class="w3-check" type="checkbox" name="relation2" value="Co-owner" style="cursor:pointer">
+        CO-Owner
+     </p>
+     <p>
+         <input class="w3-check" type="checkbox" name="relation3" value="admin" style="cursor:pointer">
+         Admin
+     </p>
+     <p>
+        <input class="w3-check" type="checkbox" name="relation4" value="Co-admin" style="cursor:pointer">
+        CO-Admin
+     </p>
+     <p>
+        <input class="w3-check" type="checkbox" name="relation5" value="developer" style="cursor:pointer">
+        Developer
+     </p>
+     <p>
+        <input class="w3-radio" type="radio" name="relation6" value="other" style="cursor:pointer">
+        Other
+     </p>
+    
+  </div>
+  <div class="tab">Login Info:<br><br><br>
+    <i class="fas fa-envelope"></i> &nbsp E-mail
+    <p><input placeholder="E-mail..." oninput="this.className = ''" name="email" required></p>
+    <i class="fa fa-lock"></i>&nbsp Password
+    <p><input  type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" name="password" ></p>
+    <i class="fa fa-lock"></i>&nbsp Confirm Password
+    <p><input  type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" name="cpassword"></p>
+    <input class="w3-check" type="checkbox" name="terms" style="cursor:pointer" required >
+    <label>Agree to the Terms and Conditions</label>
+  </div><br><br>
+  <div style="overflow:auto;">
+    <div >
+      <button style="float:left;" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button style="float:right;" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+<br><br>
+Already a User ?&nbsp &nbsp
+<a href="login.html">
+<input id="#b1" type="button" value="Log In">
+</a>
+</form>
+
+<script>
+var currentTab = 0; 
+showTab(currentTab); 
+
+function showTab(n) {
+  var x = document.getElementsByClassName("tab");
+  x[n].style.display = "block";
+  if (n == 0) {
+    document.getElementById("prevBtn").style.display = "none";
+  } else {
+    document.getElementById("prevBtn").style.display = "inline";
+  }
+  if (n == (x.length - 1)) {
+    document.getElementById("nextBtn").innerHTML = "Submit";
+  } else {
+    document.getElementById("nextBtn").innerHTML = "Next";
+  }
+  fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+  var x = document.getElementsByClassName("tab");
+  if (n == 1 && !validateForm()) return false;
+  x[currentTab].style.display = "none";
+  currentTab = currentTab + n;
+  if (currentTab >= x.length) {
+    document.getElementById("regForm").submit();
+    return false;
+  }
+  showTab(currentTab);
+}
+
+function validateForm() {
+  var x, y, i, valid = true;
+  x = document.getElementsByClassName("tab");
+  y = x[currentTab].getElementsByTagName("input");
+  for (i = 0; i < y.length; i++) {
+    if (y[i].value == "") {
+      y[i].className += " invalid";
+      valid = false;
+    }
+  }
+  if (valid) {
+    document.getElementsByClassName("step")[currentTab].className += " finish";
+  }
+  return valid; 
+}
+
+function fixStepIndicator(n) {
+  var i, x = document.getElementsByClassName("step");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" active", "");
+  }
+  x[n].className += " active";
+}
+</script>
+
+</body>
+</html>

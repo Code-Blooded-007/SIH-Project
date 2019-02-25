@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: "tisa","oswald & abel","Alternate Gothic";
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+  float:bottom ;
+  top:50% ;
+}
+
+h1 {
+  text-align: center; 
+  font-size:2.2vw;
+  font-family:'Times New Roman', 'Times', 'serif' ;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border:0.03020833333333334vw solid #d3caca;
+  outline:none;
+}
+input[type=date]{
+	border:none;
+    outline:none;
+    width:200px;
+}
+.tab {
+  display: none;
+}
+/* next , previous , submit button */
+button {
+  background-color: #f10a0a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  border-radius:0.390625vw;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #f17e7e;
+}
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+.step.finish {
+  background-color: #4CAF50;
+}
+.bg {
+	background-image:url(img/app-apple-application-38544.jpg);
+	min-height:100% ;
+	width:100% ;
+	background-position:auto ;
+	background-repeat:no-repeat ;
+	background-size:cover ;
+	position:relative ;
+}
+a {
+    text-decoration:none ;
+}
+/*log in button */
+input[type=button]{ 
+	background-color:#0c10f0;
+}
+input[type=button]:hover{
+	/*background-color: #2b58ec;*/
+	opacity:0.8;
+}
+input[type=button]{
+	color:white ;
+	border:none ;
+	border-radius:0.390625vw;
+	cursor:pointer ;
+	width:6.510416666666667vw ;
+	height:3.2552083333333335vw;
+	padding:0.78125vw 1.3020833333333333vw ;
+	margin:0.5208333333333334vw 0 ;
+	border:none ;
+}
+.content {
+  position: absolute;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 90%;
+  margin-left:4.557291666666667vw ;
+  padding: 0.6510416666666666vw;
+  height:130px ;
+  float:top;
+}
+img {
+	width:40px ;
+	height:40px ;
+}
