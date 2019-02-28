@@ -91,3 +91,109 @@ input[type=submit]:hover{
 	cursor:not-allowed;
 	width:70%;
 }
+
+/*---------Footer--------*/
+
+footer{
+    background-color: #2e024a;
+}
+
+.copyright-ft{
+    color: #fff;
+    padding-top: 5%;
+}
+
+#dark-logo-footer{
+    overflow: hidden;
+    float: left;
+    font-size: 1vw;
+    color: #fff;
+}
+
+.footer-opt{
+    padding-top: 23%;
+}
+
+.footer-opt li{
+    list-style: none;
+    padding-bottom: 5%;
+}
+
+.footer-opt li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media-ft{
+    padding-top: 20%;
+    float: left;
+    padding-right: 2%;
+}
+
+.social-media-ft li{
+    list-style: none;
+    padding-bottom: 2%;
+}
+
+.social-media-ft li a{
+    color: #fff;
+    padding-bottom: 4%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.smi{
+    float: right;
+    font-size: 1.2vw;
+}
+
+.smi li{
+    padding-bottom: 12%;
+}
+
+.social-media-nm{
+    padding-top: 21%;
+    padding-right: 2%;
+}
+
+.social-media-nm li{
+    list-style: none;
+}
+
+.social-media-nm li a{
+    color: #fff;
+    padding-bottom: 4%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.smin1:hover{
+    color: #274480;
+}
+
+.smin2:hover{
+    color: #55acee;
+}
+
+.smin3:hover{
+    color: #cd486b;
+}
+
+.address{
+    color: #fff;
+    padding-top: 12%;
+}
+
+.adrs{
+    padding-left: 6%;
+}
+
+.contact-email{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-email:hover,
+.contact-emial:active{
+    color: #c6c6c6;
+}

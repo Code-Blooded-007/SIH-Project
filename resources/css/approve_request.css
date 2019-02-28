@@ -269,8 +269,8 @@ td{
     width: 16vw;
     height: 2.2vw;
     color: #fff;
-    background-color: #aaaaaa;
-    border: none;
+    background-color: #fff;
+    border: 1px solid #6d6d6d;
     border-radius: 0.2vw;
 }
 
