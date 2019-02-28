@@ -25,6 +25,11 @@ input {
   border:0.03020833333333334vw solid #d3caca;
   outline:none;
 }
+
+#b1{
+    font-size: 1.8vw;
+}
+
 input[type=date]{
 	border:none;
     outline:none;
@@ -43,6 +48,7 @@ button {
   font-family: Raleway;
   cursor: pointer;
   border-radius:0.390625vw;
+    outline: none;
 }
 
 button:hover {
