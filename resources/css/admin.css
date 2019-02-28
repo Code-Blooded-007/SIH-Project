@@ -349,7 +349,7 @@ nav a{
     margin-top: 4vw;
     margin-left: 87%;
     font-size: 1.2vw;
-    background-image: linear-gradient(rgba(59, 59, 59, 0.92),rgba(59, 59, 59, 0.92)), url(img/home-background-image.jpg);
+    /* background-image: linear-gradient(rgba(59, 59, 59, 0.92),rgba(59, 59, 59, 0.92)), url(img/home-background-image.jpg); */
     background-size: cover;
 }
 
@@ -365,7 +365,7 @@ nav a{
 }
 
 .usr-nm-opt li a{
-    color: #fff;
+    color: #000;
 }
 
 #user-opt{

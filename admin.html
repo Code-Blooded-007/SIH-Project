@@ -61,10 +61,6 @@
         <header>
             <nav>
                 <div>
-                 <div>
-                     
-                 </div>
-                  
                   <div class="search-nav">
                     <div class="search-nav1">
                      <a href="#"><img src="vendors/icons/Artboard%201.svg" class="logo" id="dark-logo" title="Code Blooded"></a>
@@ -87,11 +83,22 @@
                   </div>
                        <a class="username" onclick="show_options()"><b>@codeblooded007</b></a><br>
                        <span class="badge4">Super Admin</span>
-                       <ul class="usr-nm-opt" id="user-opt">
+                       <!-- <ul class="usr-nm-opt" id="user-opt">
                            <li><a href="#"><b>Profile</b></a></li>
                            <li><a href="#"><b class="">My messages</b></a></li>
                            <li><a href="#"><b>Logout</b></a></li>
-                       </ul>
+                       </ul> -->
+                       <ul id="menu" class="usr-nm-opt">
+                        <li>
+                          <div><a href="#"><b>Profile</b></a></div>
+                        </li>
+                        <li>
+                          <div><a href="#"><b class="">My messages</b></a></div>
+                        </li>
+                        <li>
+                          <div><a href="#"><b>Logout</b></a></div>
+                        </li>
+                      </ul>
                 </div>
             </nav>
             <!--<div class="social-media">
@@ -268,5 +275,7 @@
             source: sites,
            autoFocus: true
         });
+
+        $("#menu").menu();
         </script>
 </html>

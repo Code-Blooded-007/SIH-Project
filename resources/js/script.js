@@ -32,7 +32,7 @@
 //For drop down options on clicking the username
 
 function show_options() {
-  var x = document.getElementById("user-opt");
+  var x = document.getElementById("menu");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
